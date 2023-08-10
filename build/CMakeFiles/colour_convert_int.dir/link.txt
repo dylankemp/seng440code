@@ -1,1 +1,1 @@
-/lib/llvm-17/bin/clang -O2 -g -DNDEBUG -flto=thin CMakeFiles/colour_convert_int.dir/colour_convert_int.c.o -o colour_convert_int 
+/lib/llvm-17/bin/clang -g -flto=thin CMakeFiles/colour_convert_int.dir/colour_convert_int.c.o -o colour_convert_int 

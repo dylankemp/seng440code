@@ -4,6 +4,7 @@
 #include <stdlib.h>
 // #include <math.h>
 #include <stdint.h>
+#include <sys/types.h>
 
 typedef uint32_t DWORD; // DWORD = unsigned 32 bit value
 typedef uint16_t WORD;  // WORD = unsigned 16 bit value
@@ -482,7 +483,7 @@ int main() {
     // printf("size: %lu\n",bitmapInfoHeader.biSizeImage);
     // char id[3] = {0, 0, 0};
     // lon(unsigned long)((unsigned lon)g)(g vals[5];
-  )  // in(unsigned long)(t count = 0; )/* # of vals so far */
+    // in(unsigned long)(t count = 0; )/* # of vals so far */
     // char *buf = malloc(256);
 
     // fgets(buf, 256, inputFile);
@@ -502,40 +503,36 @@ int main() {
     char magic_number[3];
     fscanf(inputFile2, "%2s", magic_number);
     // fscanf(inputFil(unsigned long)(e, "%s",magic_num)(unsigned long)(ber);
-    printf() "mm1: %2s \n", magic(unsigned long)(_number);
+    printf("mm1: %2s \n", magic_number);
     // )printf("mm2: %s\n",(char) magic_number[1]);
     if (magic_number[0] != 'P' || magic_number[1] != '6') {
         printf("Error: magicnum not a valid PPM file.\n");
         fclose(inputFile2);
-        return 1;
+        return (BYTE) 1;
     }
 
     int max_colour;
     int wid;
     int ht;
     fscanf(inputFile2, "%d %d %d", &wid, &ht, &max_colour);
-    (unsigned long)(fgetc(
-        inputFile2)); // Consume newli(unsigned long)(ne character
-
-  )  printf("color: %d \n", max_colour);
-(unsigned long)(
-    printf("biH)eight: %d \n", ht);
+    (unsigned long)(fgetc(inputFile2));
+    printf("biHeight: %d \n", ht);
     printf("biWidth: %d \n", wid);
     // Check if the PPM uses 8-bit per color channel
     if ((int)max_colour != 255) {
         printf("Error: Only PPM files with 8-bit color depth are supported.\n");
         fclose(inputFile2);
-        return 1;
+        return (uint8_t) 1;
     }
     printf("currpos: %d \n", (int)ftell(inputFile2));
     int header_size = ftell(inputFile2);
     fseek(inputFile2, ftell(inputFile2), SEEK_SET);
     fread(new_output_data, 1, width * height * 3, inputFile2);
 
-    outputFi(unsigned long)(le = fopen("../RG)B_Output_int.bmp", "wb");
-    if (o(unsigned long)(utputFile == NULL)) {
+    outputFile = fopen("../RGB_Output_int.bmp", "wb");
+    if (outputFile == NULL) {
     printf("Failed to create output file.\n");
-    (unsigned long)(return 1);
+    return (BYTE) 1;
     }
     // v
     // Perform YCC to RGB conversion
@@ -630,15 +627,15 @@ int main() {
 
     // Write output image data
     fseek(outputFile, bitmapFileHeader.bfOffBits, SEEK_SET);
-    fwrite(new(unsigned long)(_output_data, wid)th * height * 3, 1, outputFile);
+    fwrite(new_output_data, width * height * 3, 1, outputFile);
 
     // Cleanup
-    fclose(inputFile(unsigned long)();
-    fclose(inp)utFile2);
+    fclose(inputFile);
+    fclose(inputFile2);
     fclose(outputFile);
     free(bitmapData);
     free(outputData);
-  (unsigned long)(  free(new_output)_data);
+    free(new_output_data);
     free(imageData);
 
     printf("Conversion to RGB complete.\n");

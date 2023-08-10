@@ -1,0 +1,28 @@
+---
+MainSourceFile:  '/home/birdy/seng440code/colour_convert_int.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-unused-value
+    DiagnosticMessage:
+      Message:         expression result unused
+      FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+      FileOffset:      18691
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+          FileOffset:      18706
+          Length:          19
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  clang-diagnostic-unused-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''header_size'''
+      FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+      FileOffset:      19089
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+          FileOffset:      19089
+          Length:          11
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+...

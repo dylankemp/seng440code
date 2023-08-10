@@ -4,6 +4,7 @@
 #include <stdlib.h>
 // #include <math.h>
 #include <stdint.h>
+#include <time.h>
 
 typedef uint32_t DWORD; // DWORD = unsigned 32 bit value
 typedef uint16_t WORD;  // WORD = unsigned 16 bit value
@@ -289,7 +290,7 @@ int main() {
     uint32_t outputIndex2;
     uint32_t i;
     uint32_t j;
-
+    clock_t start = clock();
 
 
     // Open input file
@@ -311,7 +312,7 @@ int main() {
     outputData = (unsigned char *)malloc(newImageSize);
     imageData = (unsigned char *)malloc(bitmapInfoHeader.biSizeImage);
 
-    FILE *ppm_file = fopen("../output_YCC_int.ppm", "wb");
+    FILE *ppm_file = fopen("../output_YCC_vec.ppm", "wb");
     if (!ppm_file) {
         printf("Error: Could not create ppm");
         fclose(ppm_file);
@@ -397,7 +398,7 @@ int main() {
     unsigned char *new_output_data;
 
     // Open input file
-    inputFile2 = fopen("../output_YCC.ppm", "rb");
+    inputFile2 = fopen("../output_YCC_vec.ppm", "rb");
     if (inputFile2 == NULL) {
       printf("Failed to open input file.\n");
 
@@ -437,7 +438,7 @@ int main() {
     fseek(inputFile2, ftell(inputFile2), SEEK_SET);
     fread(new_output_data, 1, width * height * 3, inputFile2);
 
-    outputFile = fopen("../RGB_Output_int.bmp", "wb");
+    outputFile = fopen("../RGB_Output_vec.bmp", "wb");
     if (outputFile == NULL) {
         printf("Failed to create output file.\n");
         return 1;
@@ -500,7 +501,11 @@ int main() {
     free(imageData);
 
     printf("Conversion to RGB complete.\n");
+    clock_t end = clock();
+    double elapsed = (end - start)/CLOCKS_PER_SEC;
 
+    printf("Conversion to RGB complete.\n");
+    printf("Time measured: %.3f seconds.\n", elapsed);
 
 
     return 0;

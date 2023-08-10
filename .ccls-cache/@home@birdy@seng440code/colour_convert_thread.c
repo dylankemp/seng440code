@@ -10,19 +10,6 @@ typedef uint8_t BYTE;   // BYTE = unsigned 8 bit value
 
 #define K 8
 
-// #include "pico/stdlib.h"
-// #include "pico/float.h"
-
-// #pragma pack(push, 1)
-// typedef struct {
-//     unsigned char signature[2];
-//     unsigned int fileSize;
-//     unsigned short reserved1;
-//     unsigned short reserved2;
-//     unsigned int dataOffset;
-// } BitmapFileHeader;
-// #pragma pack(pop)
-
 #pragma pack(push, 1)
 
 typedef struct tagBITMAPFILEHEADER {
@@ -345,8 +332,6 @@ int main() {
 
     newImageSize = (width * height * 6); // 6pix
 
-
-    // outputData = (unsigned char*)malloc(bitmapInfoHeader.biSizeImage);
     outputData = (unsigned char *)malloc(newImageSize);
     imageData = (unsigned char *)malloc(bitmapInfoHeader.biSizeImage);
 

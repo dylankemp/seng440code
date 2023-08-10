@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = 
 
-C_FLAGS = -O2 -g -DNDEBUG -flto=thin
+C_FLAGS = -g -flto=thin
 

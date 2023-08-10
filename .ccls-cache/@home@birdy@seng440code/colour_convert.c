@@ -265,8 +265,8 @@ unsigned char *LoadBitmapFile(FILE *filePtr, BITMAPINFOHEADER *bitmapInfoHeader,
     // BITMAPFILEHEADER bitmapFileHeader;  //our bitmap file header
     unsigned char *bitmapImage;  //store image data
     // unsigned char *bitmapImageOut;
-    uint32_t imageIdx=0;  //image index counter
-    WORD tempRGB;  //our swap variable
+    // uint32_t imageIdx=0;  //image index counter
+    // WORD tempRGB;  //our swap variable
 
     // //open file in read binary mode
     // filePtr = fopen(filename,"rb");
@@ -384,7 +384,7 @@ int main() {
     if (!ppm_file) {
         printf("Error: Could not create ppm");
         fclose(ppm_file);
-        return 1;
+        return (uint8_t) 1;
     }
     // const BYTE *string_write = ("P6\n%d %d\n%d\n", width, height, 255);
     // Write the PPM header
@@ -548,8 +548,6 @@ int main() {
 
     // Read and validate the PPM header
 
-    new_output_data =(unsigned char *)malloc(
-        ( (unsigned long)height *  (unsigned long)width * 3));
 
     char magic_number[3];
     fscanf(inputFile2, "%2s", magic_number);
@@ -559,8 +557,11 @@ int main() {
     if (magic_number[0] != 'P' || magic_number[1] != '6') {
         printf("Error: magicnum not a valid PPM file.\n");
         fclose(inputFile2);
-        return 1;
+        return (uint8_t) 1;
     }
+
+    new_output_data =(unsigned char *)malloc(
+        ( (unsigned long)height *  (unsigned long)width * 3));
 
     int max_colour;
     int wid;
@@ -576,7 +577,7 @@ int main() {
     if ((int)max_colour != 255) {
         printf("Error: Only PPM files with 8-bit color depth are supported.\n");
         fclose(inputFile2);
-        return 1;
+        return (uint8_t) 1;
     };
     printf("currpos: %d \n",(int)ftell(inputFile2));
     fseek(inputFile2, ftell(inputFile2), SEEK_SET);
@@ -587,7 +588,7 @@ int main() {
         printf("Failed to create output file.\n");
         return 1;
     }
-// v
+//v
     //Perform YCC to RGB conversion
     for (i = 0; i < height -2 ; i += 2) {
     // for (i = height -2; i >= 1 ; i -=2) {

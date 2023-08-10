@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-RelWithDebInfo-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.18"
@@ -22,7 +22,7 @@
 					]
 				}
 			],
-			"name" : "RelWithDebInfo",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -45,28 +45,28 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "colour_convert::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-colour_convert-RelWithDebInfo-8f549e66c05aaed13ce1.json",
+					"jsonFile" : "target-colour_convert-Debug-ea06e3fc81b9d84435b1.json",
 					"name" : "colour_convert",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "colour_convert_int::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-colour_convert_int-RelWithDebInfo-250179e5eff15a9e1ef8.json",
+					"jsonFile" : "target-colour_convert_int-Debug-6e3a74c47a49c347dd85.json",
 					"name" : "colour_convert_int",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "colour_convert_int_vec::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-colour_convert_int_vec-RelWithDebInfo-123b4e807e404eb5ec64.json",
+					"jsonFile" : "target-colour_convert_int_vec-Debug-cb98efffaa8ee7904563.json",
 					"name" : "colour_convert_int_vec",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "colour_convert_thread::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-colour_convert_thread-RelWithDebInfo-36272d3720732b8b0774.json",
+					"jsonFile" : "target-colour_convert_thread-Debug-83659286581d0af99be2.json",
 					"name" : "colour_convert_thread",
 					"projectIndex" : 0
 				}
