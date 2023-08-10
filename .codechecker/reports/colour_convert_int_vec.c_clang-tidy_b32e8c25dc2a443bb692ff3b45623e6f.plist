@@ -3,9 +3,51 @@
 <plist version="1.0">
 <dict>
 	<key>diagnostics</key>
-	<array/>
+	<array>
+		<dict>
+			<key>category</key>
+			<string>bugprone</string>
+			<key>check_name</key>
+			<string>bugprone-integer-division</string>
+			<key>description</key>
+			<string>result of integer division used in a floating point context; possible loss of precision</string>
+			<key>issue_hash_content_of_line_in_context</key>
+			<string>60e829022c7201c070234511f2f6e79c</string>
+			<key>location</key>
+			<dict>
+				<key>col</key>
+				<integer>22</integer>
+				<key>file</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>505</integer>
+			</dict>
+			<key>path</key>
+			<array>
+				<dict>
+					<key>depth</key>
+					<integer>0</integer>
+					<key>kind</key>
+					<string>event</string>
+					<key>location</key>
+					<dict>
+						<key>col</key>
+						<integer>22</integer>
+						<key>file</key>
+						<integer>0</integer>
+						<key>line</key>
+						<integer>505</integer>
+					</dict>
+					<key>message</key>
+					<string>result of integer division used in a floating point context; possible loss of precision</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
 	<key>files</key>
-	<array/>
+	<array>
+		<string>/home/birdy/seng440code/colour_convert_int_vec.c</string>
+	</array>
 	<key>metadata</key>
 	<dict>
 		<key>analyzer</key>

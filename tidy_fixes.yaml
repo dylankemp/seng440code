@@ -1,880 +1,809 @@
 ---
-MainSourceFile:  '/home/birdy/seng440code/colour_convert_int.1.c'
+MainSourceFile:  '/home/birdy/seng440code/colour_convert_thread.c'
 Diagnostics:
+  - DiagnosticName:  llvm-include-order
+    DiagnosticMessage:
+      Message:         '#includes are not sorted properly'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      61
+      Replacements:    []
+    Notes:
+      - Message:         this fix will not be applied because it overlaps with another fix
+        FilePath:        ''
+        FileOffset:      0
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  misc-include-cleaner
+    DiagnosticMessage:
+      Message:         included header pthread.h is not used directly
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      81
+      Replacements:
+        - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+          Offset:          81
+          Length:          21
+          ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'parameter name ''x'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      1572
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      1877
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'variable name ''r'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      1637
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      1942
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '255 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      1660
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      1965
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '255 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      1667
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      1972
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'parameter name ''x'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      1750
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      2030
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'variable name ''r'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      1810
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      2090
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      1819
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      2099
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      1825
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      2105
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '255 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      1835
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      2115
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '235 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      1842
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      2122
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'parameter name ''x'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      1921
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      2176
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'variable name ''r'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      1981
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      2236
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      1990
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      2245
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      1996
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      2251
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '255 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      2006
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      2261
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '240 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      2013
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      2268
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  bugprone-easily-swappable-parameters
     DiagnosticMessage:
       Message:         '12 adjacent parameters of ''rgbToCmyk'' of similar type (''BYTE'') are easily swapped by mistake'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      2080
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      2310
       Replacements:    []
       Ranges:
-        - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-          FileOffset:      2080
+        - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+          FileOffset:      2310
           Length:          184
     Notes:
       - Message:         'the first parameter in the range is ''redtl'''
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      2085
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      2315
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      2085
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      2315
             Length:          5
       - Message:         'the last parameter in the range is ''bluebr'''
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      2258
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      2488
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      2258
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      2488
             Length:          6
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  bugprone-easily-swappable-parameters
     DiagnosticMessage:
       Message:         '2 adjacent parameters of ''rgbToCmyk'' of similar type (''unsigned char *'') are easily swapped by mistake'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      2301
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      2531
       Replacements:    []
       Ranges:
-        - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-          FileOffset:      2301
+        - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+          FileOffset:      2531
           Length:          38
     Notes:
       - Message:         'the first parameter in the range is ''Ytr'''
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      2316
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      2546
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      2316
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      2546
             Length:          3
       - Message:         'the last parameter in the range is ''Ybl'''
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      2336
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      2566
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      2336
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      2566
             Length:          3
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  bugprone-easily-swappable-parameters
     DiagnosticMessage:
       Message:         '2 adjacent parameters of ''rgbToCmyk'' of similar type (''unsigned char *'') are easily swapped by mistake'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      2341
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      2571
       Replacements:    []
       Ranges:
-        - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-          FileOffset:      2341
+        - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+          FileOffset:      2571
           Length:          52
     Notes:
       - Message:         'the first parameter in the range is ''Ybr'''
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      2356
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      2586
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      2356
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      2586
             Length:          3
       - Message:         'the last parameter in the range is ''CB'''
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      2391
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      2621
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      2391
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      2621
             Length:          2
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'parameter name ''CB'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      2391
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      2621
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'parameter name ''CR'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      2410
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      2640
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      2906
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3136
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '66 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      2918
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3148
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '129 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      2931
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3161
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '25 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      2945
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3175
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      2972
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '66 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      2984
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '129 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      2997
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '25 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3011
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3039
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '66 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3051
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '129 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3064
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '25 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3078
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3107
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '66 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3119
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '129 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3132
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '25 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3146
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3176
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '38 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3189
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '74 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
       FileOffset:      3202
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
-      Message:         '112 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3215
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3244
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '112 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3257
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '94 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3271
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '18 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3284
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3313
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '38 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3326
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '74 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3339
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '112 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3352
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3381
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '112 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3394
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '94 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3408
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '18 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3421
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3450
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '38 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3463
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '74 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3476
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '112 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3489
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3518
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '112 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3531
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '94 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3545
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '18 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3558
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3587
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '38 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3600
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '74 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3613
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '112 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3626
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3655
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '112 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3668
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '94 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3682
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '18 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      3695
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  bugprone-easily-swappable-parameters
-    DiagnosticMessage:
-      Message:         '2 adjacent parameters of ''YCbCrTorgb'' of similar type (''unsigned char'') are easily swapped by mistake'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      4839
-      Replacements:    []
-      Ranges:
-        - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-          FileOffset:      4839
-          Length:          36
-    Notes:
-      - Message:         'the first parameter in the range is ''Ytr'''
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      4853
-        Replacements:    []
-        Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      4853
-            Length:          3
-      - Message:         'the last parameter in the range is ''Ybl'''
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      4872
-        Replacements:    []
-        Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      4872
-            Length:          3
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  bugprone-easily-swappable-parameters
-    DiagnosticMessage:
-      Message:         '2 adjacent parameters of ''YCbCrTorgb'' of similar type (''unsigned char'') are easily swapped by mistake'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      4893
-      Replacements:    []
-      Ranges:
-        - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-          FileOffset:      4893
-          Length:          35
-    Notes:
-      - Message:         'the first parameter in the range is ''Ybr'''
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      4907
-        Replacements:    []
-        Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      4907
-            Length:          3
-      - Message:         'the last parameter in the range is ''CB'''
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      4926
-        Replacements:    []
-        Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      4926
-            Length:          2
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-identifier-length
-    DiagnosticMessage:
-      Message:         'parameter name ''CB'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      4926
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-identifier-length
-    DiagnosticMessage:
-      Message:         'parameter name ''CR'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      4944
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  bugprone-easily-swappable-parameters
-    DiagnosticMessage:
-      Message:         '12 adjacent parameters of ''YCbCrTorgb'' of similar type (''unsigned char *'') are easily swapped by mistake'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      4964
-      Replacements:    []
-      Ranges:
-        - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-          FileOffset:      4964
-          Length:          339
-    Notes:
-      - Message:         'the first parameter in the range is ''red'''
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      4979
-        Replacements:    []
-        Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      4979
-            Length:          3
-      - Message:         'the last parameter in the range is ''blue3'''
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      5298
-        Replacements:    []
-        Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      5298
-            Length:          5
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-identifier-length
-    DiagnosticMessage:
-      Message:         'variable name ''Yf'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5417
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-identifier-length
-    DiagnosticMessage:
-      Message:         'variable name ''r'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5521
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '74 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5536
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5552
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '102 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5560
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5578
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-identifier-length
-    DiagnosticMessage:
-      Message:         'variable name ''g'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5594
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '74 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5609
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5625
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '52 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5633
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5650
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '25 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5672
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5689
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-identifier-length
-    DiagnosticMessage:
-      Message:         'variable name ''b'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5704
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '74 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5719
-      Replacements:    []
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-magic-numbers
-    DiagnosticMessage:
-      Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5735
+      Message:         '66 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3214
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '129 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5743
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3227
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '25 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3241
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '16 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3269
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '66 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3281
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '129 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3294
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '25 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3308
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '16 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3337
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '66 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3349
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '129 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3362
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '25 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3376
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5761
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3406
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  readability-identifier-length
+  - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
-      Message:         'variable name ''r1'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5798
+      Message:         '38 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3419
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '74 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3432
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '112 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3445
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '128 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3474
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '112 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3487
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '94 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3501
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '18 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3514
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '128 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3543
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '38 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3556
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '74 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3569
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '112 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3582
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '128 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3611
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '112 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3624
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '94 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3638
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '18 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3651
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '128 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3680
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '38 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3693
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '74 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3706
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '112 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3719
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '128 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3748
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '112 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3761
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '94 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3775
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '18 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3788
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '128 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3817
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '38 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3830
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '74 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3843
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '112 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3856
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '128 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3885
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '112 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3898
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '94 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3912
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '18 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      3925
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-easily-swappable-parameters
+    DiagnosticMessage:
+      Message:         '2 adjacent parameters of ''YCbCrTorgb'' of similar type (''unsigned char'') are easily swapped by mistake'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5044
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+          FileOffset:      5044
+          Length:          36
+    Notes:
+      - Message:         'the first parameter in the range is ''Ytr'''
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      5058
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      5058
+            Length:          3
+      - Message:         'the last parameter in the range is ''Ybl'''
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      5077
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      5077
+            Length:          3
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-easily-swappable-parameters
+    DiagnosticMessage:
+      Message:         '2 adjacent parameters of ''YCbCrTorgb'' of similar type (''unsigned char'') are easily swapped by mistake'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5098
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+          FileOffset:      5098
+          Length:          35
+    Notes:
+      - Message:         'the first parameter in the range is ''Ybr'''
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      5112
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      5112
+            Length:          3
+      - Message:         'the last parameter in the range is ''CB'''
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      5131
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      5131
+            Length:          2
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-identifier-length
+    DiagnosticMessage:
+      Message:         'parameter name ''CB'' is too short, expected at least 3 characters'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5131
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-identifier-length
+    DiagnosticMessage:
+      Message:         'parameter name ''CR'' is too short, expected at least 3 characters'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5149
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-easily-swappable-parameters
+    DiagnosticMessage:
+      Message:         '12 adjacent parameters of ''YCbCrTorgb'' of similar type (''unsigned char *'') are easily swapped by mistake'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5169
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+          FileOffset:      5169
+          Length:          339
+    Notes:
+      - Message:         'the first parameter in the range is ''red'''
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      5184
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      5184
+            Length:          3
+      - Message:         'the last parameter in the range is ''blue3'''
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      5503
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      5503
+            Length:          5
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-identifier-length
+    DiagnosticMessage:
+      Message:         'variable name ''Yf'' is too short, expected at least 3 characters'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5622
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-identifier-length
+    DiagnosticMessage:
+      Message:         'variable name ''r'' is too short, expected at least 3 characters'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5726
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '74 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5741
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '16 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5757
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '102 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5765
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '128 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5783
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-identifier-length
+    DiagnosticMessage:
+      Message:         'variable name ''g'' is too short, expected at least 3 characters'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5799
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '74 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
       FileOffset:      5814
       Replacements:    []
     Level:           Warning
@@ -882,15 +811,15 @@ Diagnostics:
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
       FileOffset:      5830
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
-      Message:         '102 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
+      Message:         '52 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
       FileOffset:      5838
       Replacements:    []
     Level:           Warning
@@ -898,403 +827,499 @@ Diagnostics:
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5856
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5855
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '25 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5877
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '128 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5894
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-identifier-length
+    DiagnosticMessage:
+      Message:         'variable name ''b'' is too short, expected at least 3 characters'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5909
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '74 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5924
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '16 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5940
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '129 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5948
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '128 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      5966
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-identifier-length
+    DiagnosticMessage:
+      Message:         'variable name ''r1'' is too short, expected at least 3 characters'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6003
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '74 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6019
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '16 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6035
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '102 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6043
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  readability-magic-numbers
+    DiagnosticMessage:
+      Message:         '128 is a magic number; consider replacing it with a named constant'
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6061
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'variable name ''g1'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5872
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6077
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '74 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5888
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6093
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5904
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6109
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '52 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5912
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6117
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5929
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6134
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '25 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5961
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6166
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5978
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6183
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'variable name ''b1'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      5994
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6199
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '74 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6010
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6215
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6026
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6231
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '129 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6034
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6239
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6052
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6257
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'variable name ''r2'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6089
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6294
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '74 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6105
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6310
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6121
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6326
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '102 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6129
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6334
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6147
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6352
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'variable name ''g2'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6163
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6368
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '74 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6179
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6384
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6195
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6400
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '52 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6203
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6408
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6220
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6425
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '25 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6252
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6457
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6269
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6474
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'variable name ''b2'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6285
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6490
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '74 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6301
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6506
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6317
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6522
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '129 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6325
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6530
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6343
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6548
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'variable name ''r3'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6380
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6585
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '74 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6396
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6601
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6412
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6617
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '102 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6420
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6625
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6438
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6643
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'variable name ''g3'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6454
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6659
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '74 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6470
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6675
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6486
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6691
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '52 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6494
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6699
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6511
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6716
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '25 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6543
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6748
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6560
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6765
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'variable name ''b3'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6576
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6781
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '74 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6592
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6797
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '16 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6608
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6813
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '129 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6616
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6821
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '128 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      6634
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      6839
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '0x4D42 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      8325
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      8505
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '24 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      8578
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      8758
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-isolate-declaration
     DiagnosticMessage:
       Message:         multiple declarations in a single statement reduces readability
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      9789
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      10607
       Replacements:
-        - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-          Offset:          9789
+        - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+          Offset:          10607
           Length:          29
           ReplacementText: "FILE *inputFile;\n    FILE *outputFile;"
     Level:           Warning
@@ -1302,629 +1327,629 @@ Diagnostics:
   - DiagnosticName:  readability-isolate-declaration
     DiagnosticMessage:
       Message:         multiple declarations in a single statement reduces readability
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      9980
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      10726
       Replacements:
-        - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-          Offset:          9980
-          Length:          56
-          ReplacementText: "uint32_t index;\n    uint32_t index2;\n    uint32_t outputIndex;\n    uint32_t outputIndex2;\n    uint32_t i;\n    uint32_t j;"
+        - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+          Offset:          10726
+          Length:          69
+          ReplacementText: "uint32_t index;\n    uint32_t index2;\n    uint32_t outputIndex;\n    uint32_t outputIndex2;\n    uint32_t i;\n    uint32_t j;\n    uint32_t NUM_THREADS;"
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'variable name ''i'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      10031
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      10777
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'variable name ''j'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      10034
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      10780
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  clang-analyzer-core.uninitialized.Assign
     DiagnosticMessage:
       Message:         Assigned value is garbage or undefined
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      10304
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      11064
       Replacements:    []
       Ranges:
-        - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-          FileOffset:      10321
+        - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+          FileOffset:      11081
           Length:          24
     Notes:
       - Message:         'Assuming ''inputFile'' is not equal to NULL'
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10114
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      10874
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      10114
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      10874
             Length:          17
       - Message:         Taking false branch
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10110
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      10870
         Replacements:    []
       - Message:         'Calling ''LoadBitmapFile'''
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10234
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      10994
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      10234
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      10994
             Length:          63
       - Message:         'Assuming field ''bfType'' is not equal to 19778'
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      8297
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      8477
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      8297
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      8477
             Length:          34
       - Message:         Taking true branch
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      8293
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      8473
         Replacements:    []
       - Message:         'Returning without writing to ''bitmapInfoHeader->biWidth'''
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      8368
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      8548
         Replacements:    []
       - Message:         'Returning from ''LoadBitmapFile'''
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10234
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      10994
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      10234
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      10994
             Length:          63
       - Message:         Assigned value is garbage or undefined
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10304
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      11064
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      10321
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      11081
             Length:          24
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '6 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      10434
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      11194
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  clang-analyzer-unix.Malloc
     DiagnosticMessage:
       Message:         'Potential leak of memory pointed to by ''imageData'''
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      10663
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      11498
       Replacements:    []
     Notes:
       - Message:         'Assuming ''inputFile'' is not equal to NULL'
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10114
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      10874
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      10114
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      10874
             Length:          17
       - Message:         Taking false branch
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10110
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      10870
         Replacements:    []
       - Message:         Memory is allocated
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10536
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      11371
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      10536
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      11371
             Length:          36
       - Message:         'Assuming ''ppm_file'' is null'
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10642
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      11477
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      10642
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      11477
             Length:          9
       - Message:         Taking true branch
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10638
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      11473
         Replacements:    []
       - Message:         'Potential leak of memory pointed to by ''imageData'''
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10663
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      11498
         Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  clang-analyzer-unix.Malloc
     DiagnosticMessage:
       Message:         'Potential leak of memory pointed to by ''outputData'''
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      10663
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      11498
       Replacements:    []
     Notes:
       - Message:         'Assuming ''inputFile'' is not equal to NULL'
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10114
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      10874
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      10114
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      10874
             Length:          17
       - Message:         Taking false branch
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10110
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      10870
         Replacements:    []
       - Message:         Memory is allocated
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10481
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      11316
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      10481
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      11316
             Length:          20
       - Message:         'Assuming ''ppm_file'' is null'
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10642
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      11477
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      10642
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      11477
             Length:          9
       - Message:         Taking true branch
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10638
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      11473
         Replacements:    []
       - Message:         'Potential leak of memory pointed to by ''outputData'''
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10663
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      11498
         Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '255 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      10870
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      11706
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '6 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      11731
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      12691
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '5 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      12198
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      13224
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '5 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      12550
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      13576
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '5 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      12964
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      13983
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '5 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      13150
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      14200
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '5 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      13313
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      14363
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '5 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      13343
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      14393
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '5 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      13535
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      14585
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '5 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      13701
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      14751
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '5 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      13731
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      14781
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
     DiagnosticMessage:
       Message:         'performing an implicit widening conversion to type ''unsigned long'' of a multiplication performed in type ''uint32_t'' (aka ''unsigned int'')'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      14285
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      15333
       Replacements:    []
     Notes:
       - Message:         make conversion explicit to silence this warning
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      14285
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      15333
         Replacements:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
             Offset:          1
             Length:          0
             ReplacementText: "#include <stddef.h>\n"
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            Offset:          14285
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            Offset:          15333
             Length:          0
             ReplacementText: '(unsigned long)('
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            Offset:          14302
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            Offset:          15350
             Length:          0
             ReplacementText: ')'
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      14285
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      15333
             Length:          18
       - Message:         perform multiplication in a wider type
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      14285
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      15333
         Replacements:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            Offset:          14285
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            Offset:          15333
             Length:          0
             ReplacementText: '(unsigned long)'
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      14285
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      15333
             Length:          14
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling
     DiagnosticMessage:
       Message:         'Call to function ''fscanf'' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as ''fscanf_s'' in case of C11'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      14337
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      15385
       Replacements:    []
       Ranges:
-        - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-          FileOffset:      14337
+        - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+          FileOffset:      15385
           Length:          6
     Notes:
       - Message:         'Call to function ''fscanf'' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as ''fscanf_s'' in case of C11'
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      14337
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      15385
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      14337
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      15385
             Length:          6
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  clang-analyzer-unix.Malloc
     DiagnosticMessage:
       Message:         'Potential leak of memory pointed to by ''new_output_data'''
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      14489
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      15631
       Replacements:    []
     Notes:
       - Message:         'Assuming ''inputFile'' is not equal to NULL'
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10114
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      10874
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      10114
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      10874
             Length:          17
       - Message:         Taking false branch
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10110
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      10870
         Replacements:    []
       - Message:         'Assuming ''ppm_file'' is non-null'
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10642
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      11477
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      10642
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      11477
             Length:          9
       - Message:         Taking false branch
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      10638
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      11473
         Replacements:    []
       - Message:         Assuming the condition is false
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      11153
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      12262
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      11153
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      12262
             Length:          33
-      - Message:         Loop condition is false. Execution continues on line 376
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      11141
+      - Message:         Loop condition is false. Execution continues on line 426
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      12250
         Replacements:    []
       - Message:         'Assuming ''inputFile2'' is not equal to NULL'
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      14144
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      15191
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      14144
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      15191
             Length:          18
       - Message:         Taking false branch
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      14140
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      15187
         Replacements:    []
       - Message:         Memory is allocated
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      14278
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      15326
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      14278
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      15326
             Length:          26
       - Message:         Assuming the condition is true
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      14429
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      15571
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      14429
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      15571
             Length:          22
       - Message:         'Left side of ''||'' is true'
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      14452
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      15594
         Replacements:    []
       - Message:         'Potential leak of memory pointed to by ''new_output_data'''
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      14489
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      15631
         Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'variable name ''ht'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      14634
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      15776
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling
     DiagnosticMessage:
       Message:         'Call to function ''fscanf'' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as ''fscanf_s'' in case of C11'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      14642
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      15784
       Replacements:    []
       Ranges:
-        - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-          FileOffset:      14642
+        - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+          FileOffset:      15784
           Length:          6
     Notes:
       - Message:         'Call to function ''fscanf'' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as ''fscanf_s'' in case of C11'
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      14642
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      15784
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      14642
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      15784
             Length:          6
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '255 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      14942
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      16084
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  clang-analyzer-deadcode.DeadStores
     DiagnosticMessage:
       Message:         'Value stored to ''header_size'' during its initialization is never read'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      15144
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      16286
       Replacements:    []
       Ranges:
-        - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-          FileOffset:      15144
+        - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+          FileOffset:      16286
           Length:          11
-        - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-          FileOffset:      15158
+        - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+          FileOffset:      16300
           Length:          17
     Notes:
       - Message:         'Value stored to ''header_size'' during its initialization is never read'
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      15144
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      16286
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      15144
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      16286
             Length:          11
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      15158
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      16300
             Length:          17
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  bugprone-narrowing-conversions
     DiagnosticMessage:
       Message:         'narrowing conversion from ''long'' to signed type ''int'' is implementation-defined'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      15158
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      16300
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
     DiagnosticMessage:
       Message:         'performing an implicit widening conversion to type ''unsigned long'' of a multiplication performed in type ''uint32_t'' (aka ''unsigned int'')'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      15259
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      16401
       Replacements:    []
     Notes:
       - Message:         make conversion explicit to silence this warning
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      15259
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      16401
         Replacements:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            Offset:          15259
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            Offset:          16401
             Length:          0
             ReplacementText: '(unsigned long)('
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            Offset:          15276
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            Offset:          16418
             Length:          0
             ReplacementText: ')'
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      15259
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      16401
             Length:          18
       - Message:         perform multiplication in a wider type
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      15259
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      16401
         Replacements:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            Offset:          15259
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            Offset:          16401
             Length:          0
             ReplacementText: '(unsigned long)'
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      15259
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      16401
             Length:          14
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  clang-analyzer-deadcode.DeadStores
     DiagnosticMessage:
       Message:         'Value stored to ''index'' is never read'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      15955
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      16819
       Replacements:    []
       Ranges:
-        - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-          FileOffset:      15963
+        - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+          FileOffset:      16827
           Length:          19
     Notes:
       - Message:         'Value stored to ''index'' is never read'
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      15955
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      16819
         Replacements:    []
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      15963
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      16827
             Length:          19
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '6 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      15981
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      16845
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'variable name ''CB'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      16337
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      17165
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-identifier-length
     DiagnosticMessage:
       Message:         'variable name ''CR'' is too short, expected at least 3 characters'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      16387
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      17215
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '5 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      16850
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      17641
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  readability-magic-numbers
     DiagnosticMessage:
       Message:         '5 is a magic number; consider replacing it with a named constant'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      17200
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      17991
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
     DiagnosticMessage:
       Message:         'performing an implicit widening conversion to type ''unsigned long'' of a multiplication performed in type ''uint32_t'' (aka ''unsigned int'')'
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-      FileOffset:      17558
+      FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+      FileOffset:      18351
       Replacements:    []
     Notes:
       - Message:         make conversion explicit to silence this warning
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      17558
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      18351
         Replacements:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            Offset:          17558
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            Offset:          18351
             Length:          0
             ReplacementText: '(unsigned long)('
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            Offset:          17575
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            Offset:          18368
             Length:          0
             ReplacementText: ')'
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      17558
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      18351
             Length:          18
       - Message:         perform multiplication in a wider type
-        FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-        FileOffset:      17558
+        FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+        FileOffset:      18351
         Replacements:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            Offset:          17558
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            Offset:          18351
             Length:          0
             ReplacementText: '(unsigned long)'
         Ranges:
-          - FilePath:        '/home/birdy/seng440code/colour_convert_int.1.c'
-            FileOffset:      17558
+          - FilePath:        '/home/birdy/seng440code/colour_convert_thread.c'
+            FileOffset:      18351
             Length:          14
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'

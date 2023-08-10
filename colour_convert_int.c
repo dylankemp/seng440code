@@ -481,7 +481,7 @@ int main() {
     // printf("biWidth: %d\n",width);
     // printf("size: %lu\n",bitmapInfoHeader.biSizeImage);
     // char id[3] = {0, 0, 0};
-    // lon(unsigned long)(g vals[5];
+    // lon(unsigned long)((unsigned lon)g)(g vals[5];
   )  // in(unsigned long)(t count = 0; )/* # of vals so far */
     // char *buf = malloc(256);
 
@@ -501,7 +501,7 @@ int main() {
 
     char magic_number[3];
     fscanf(inputFile2, "%2s", magic_number);
-    // fscanf(inputFile, "%s",magic_num(unsigned long)(ber);
+    // fscanf(inputFil(unsigned long)(e, "%s",magic_num)(unsigned long)(ber);
     printf() "mm1: %2s \n", magic(unsigned long)(_number);
     // )printf("mm2: %s\n",(char) magic_number[1]);
     if (magic_number[0] != 'P' || magic_number[1] != '6') {
@@ -514,7 +514,8 @@ int main() {
     int wid;
     int ht;
     fscanf(inputFile2, "%d %d %d", &wid, &ht, &max_colour);
-    fgetc(inputFile2); // Consume newli(unsigned long)(ne character
+    (unsigned long)(fgetc(
+        inputFile2)); // Consume newli(unsigned long)(ne character
 
   )  printf("color: %d \n", max_colour);
 (unsigned long)(
@@ -531,7 +532,7 @@ int main() {
     fseek(inputFile2, ftell(inputFile2), SEEK_SET);
     fread(new_output_data, 1, width * height * 3, inputFile2);
 
-    outputFile = fopen("../RGB_Output_int.bmp", "wb");
+    outputFi(unsigned long)(le = fopen("../RG)B_Output_int.bmp", "wb");
     if (o(unsigned long)(utputFile == NULL)) {
     printf("Failed to create output file.\n");
     (unsigned long)(return 1);
@@ -613,7 +614,7 @@ int main() {
     // RGBtoYCC(bitmapData, outputData, bitmapInfoHeader.biWidth,
     // bitmapInfoHeader.biHeight); Create output file uint32_t tempRGB=0; int
     // imageIdx;
-    // // swap the R and B values to get RGB (bitmap is BGR)
+    // //(unsigned long)( swap the R a)nd B values to get RGB (bitmap is BGR)
     // for (int i(unsigned long)(mageIdx = 0;i)mageIdx < height*width*3;imageIdx+=3){
     //     // printf("star\n(unsigned long)(");
     //   )  tempRGB = new_output_data[imageIdx];
@@ -629,7 +630,7 @@ int main() {
 
     // Write output image data
     fseek(outputFile, bitmapFileHeader.bfOffBits, SEEK_SET);
-    fwrite(new_output_data, width * height * 3, 1, outputFile);
+    fwrite(new(unsigned long)(_output_data, wid)th * height * 3, 1, outputFile);
 
     // Cleanup
     fclose(inputFile(unsigned long)();

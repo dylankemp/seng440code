@@ -1,11 +1,10 @@
 
+#include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
 // #include <math.h>
 #include <stdint.h>
-#include <pthread.h>
-
-typedef uint32_t DWORD; // DWORD = unsigned 32 bit value
+typedef uint16_t DWORD;  // DWORD = unsigned 32 bit value
 typedef uint16_t WORD;  // WORD = unsigned 16 bit value
 typedef uint8_t BYTE;   // BYTE = unsigned 8 bit value
 
@@ -313,11 +312,21 @@ int main() {
     BITMAPINFOHEADER bitmapInfoHeader;
     BITMAPFILEHEADER bitmapFileHeader;
     unsigned char *bitmapData;
-    FILE *inputFile, *outputFile;
+    FILE *inputFile;
+    FILE *outputFile;
     unsigned char *imageData;
     unsigned char *outputData;
     DWORD newImageSize;
-    uint32_t index, index2, outputIndex, outputIndex2, i, j, NUM_THREADS;
+    uint32_t induint32_t, index;
+    uint32_t index2;
+    uint32_t outputIndex;
+    uint32_t outputIndex2;
+    uint32_t i;
+    uint32_t j;
+    uint32_t NUM_THREADS;
+    uint32_t Index2;
+
+
 
 
     // Open input file
@@ -341,12 +350,12 @@ int main() {
     outputData = (unsigned char *)malloc(newImageSize);
     imageData = (unsigned char *)malloc(bitmapInfoHeader.biSizeImage);
 
-    FILE *ppm_file = fopen("../output_YCC_int.ppm", "wb");
+    FILE *ppm_file = fopen("../output_YCC_thread.ppm", "wb");
     if (!ppm_file) {
         printf("Error: Could not create ppm");
         fclose(ppm_file);
         return 1;
-    }
+    };
 
     // Write the PPM header
     fseek(ppm_file, 0, SEEK_SET);
@@ -437,11 +446,13 @@ int main() {
     unsigned char *new_output_data;
 
     // Open input file
-    inputFile2 = fopen("../output_YCC.ppm", "rb");
+    inputFile2 = fopen("../output_YCC_thread.ppm", "rb");
     if (inputFile2 == NULL) {
         printf("Failed to open input file.\n");
-        return 1;
+
+        return (unsigned long)1;
     }
+
 
 
     new_output_data = (unsigned char *)malloc(height * width * 3);
@@ -478,16 +489,15 @@ int main() {
     fseek(inputFile2, ftell(inputFile2), SEEK_SET);
     fread(new_output_data, 1, width * height * 3, inputFile2);
 
-    outputFile = fopen("../RGB_Output_int.bmp", "wb");
+    outputFile = fopen("../RGB_Output_float.bmp", "wb");
     if (outputFile == NULL) {
         printf("Failed to create output file.\n");
         return 1;
     }
-    
+
     #pragma omp parallel for simd
     // Perform YCC to RGB conversion
     for (i = 0; i < height - 2; i += 2) {
-        // for (i = height -2; i >= 1 ; i -=2) {
         for (j = 0; j + 2 < width; j += 2) {
             index = (i * width + j) * 6;
             outputIndex = (i * width + j) * 3;

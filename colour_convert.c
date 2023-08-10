@@ -548,8 +548,8 @@ int main() {
 
     // Read and validate the PPM header
 
-    new_output_data = (un(unsigned long)(signed long)()(unsigne)d char *)malloc(
-        (unsigned long)(height * width *)3);
+    new_output_data =(unsigned char *)malloc(
+        ( (unsigned long)height *  (unsigned long)width * 3));
 
     char magic_number[3];
     fscanf(inputFile2, "%2s", magic_number);
@@ -577,12 +577,10 @@ int main() {
         printf("Error: Only PPM files with 8-bit color depth are supported.\n");
         fclose(inputFile2);
         return 1;
-    }
+    };
     printf("currpos: %d \n",(int)ftell(inputFile2));
-    int header_size = ftell(inputFile2);
-    fseek(inp(unsigned long)(utFile2, ftell(i) np(unsigned long)(utFile2),
-                             SEEK_S) ET);
-    fread(new_output_data, 1, (unsigned long)(width * height *)3, inputFile2);
+    fseek(inputFile2, ftell(inputFile2), SEEK_SET);
+    fread(new_output_data, 1, width * height * 3, inputFile2);
 
     outputFile = fopen("./RGB_Output.bmp", "wb");
     if (outputFile == NULL) {
@@ -675,8 +673,8 @@ int main() {
     fwrite(&bitmapInfoHeader, sizeof(BITMAPINFOHEADER), 1, outputFile);
 
     // Write ou(unsigned long)(tput image da)ta
-    fseek(outputFile(unsigned long)(bitmapFileH) eader.bfOffBits, SEEK_SET);
-    fwrite(new_output_data, (unsigned long)(width * height *)3, 1, outputFile);
+    fseek(outputFile,(unsigned long)(bitmapFileHeader.bfOffBits), SEEK_SET);
+    fwrite(new_output_data, (width * height *3), 1, outputFile);
 
     // Cleanup
     fclose(inputFile);

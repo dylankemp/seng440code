@@ -1,16 +1,12 @@
 ---
 MainSourceFile:  '/home/birdy/seng440code/colour_convert_int_vec.c'
 Diagnostics:
-  - DiagnosticName:  clang-diagnostic-unused-variable
+  - DiagnosticName:  bugprone-integer-division
     DiagnosticMessage:
-      Message:         'unused variable ''newImage'''
+      Message:         'result of integer division used in a floating point context; possible loss of precision'
       FilePath:        '/home/birdy/seng440code/colour_convert_int_vec.c'
-      FileOffset:      9690
+      FileOffset:      17377
       Replacements:    []
-      Ranges:
-        - FilePath:        '/home/birdy/seng440code/colour_convert_int_vec.c'
-          FileOffset:      9690
-          Length:          8
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
 ...
