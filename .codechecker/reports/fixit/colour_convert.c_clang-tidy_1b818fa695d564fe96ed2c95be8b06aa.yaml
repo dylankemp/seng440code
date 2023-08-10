@@ -1,0 +1,48 @@
+---
+MainSourceFile:  '/home/birdy/seng440code/colour_convert.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-unused-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''imageIdx'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      8795
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      8795
+          Length:          8
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  clang-diagnostic-unused-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''tempRGB'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      8839
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      8839
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  clang-diagnostic-unused-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''header_size'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      19943
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      19943
+          Length:          11
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-integer-division
+    DiagnosticMessage:
+      Message:         'result of integer division used in a floating point context; possible loss of precision'
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      24635
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+...

@@ -1,0 +1,4 @@
+/home/birdy/seng440code/CMakeFiles/rebuild_cache.dir
+/home/birdy/seng440code/CMakeFiles/edit_cache.dir
+/home/birdy/seng440code/CMakeFiles/colour_convert_int.dir
+/home/birdy/seng440code/CMakeFiles/colour_convert.dir

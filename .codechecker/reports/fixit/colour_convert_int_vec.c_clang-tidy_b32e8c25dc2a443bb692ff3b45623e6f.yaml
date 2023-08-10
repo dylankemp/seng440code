@@ -1,0 +1,16 @@
+---
+MainSourceFile:  '/home/birdy/seng440code/colour_convert_int_vec.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-unused-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''newImage'''
+      FilePath:        '/home/birdy/seng440code/colour_convert_int_vec.c'
+      FileOffset:      9690
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert_int_vec.c'
+          FileOffset:      9690
+          Length:          8
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+...

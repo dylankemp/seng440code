@@ -1,0 +1,14 @@
+[
+  {
+    "directory": "/home/birdy/seng440code/build",
+    "command": "/usr/bin/clang-17   -g -fPIE -o build/CMakeFiles/colour_convert.dir/colour_convert.c.o -c /home/birdy/seng440code/colour_convert.c",
+    "file": "/home/birdy/seng440code/colour_convert.c",
+    "output": "build/CMakeFiles/colour_convert.dir/colour_convert.c.o"
+  },
+  {
+    "directory": "/home/birdy/seng440code/build",
+    "command": "/usr/bin/clang-17   -g -fPIE -o build/CMakeFiles/colour_convert_int.dir/colour_convert_int.c.o -c /home/birdy/seng440code/colour_convert_int.c",
+    "file": "/home/birdy/seng440code/colour_convert_int.c",
+    "output": "build/CMakeFiles/colour_convert_int.dir/colour_convert_int.c.o"
+  }
+]

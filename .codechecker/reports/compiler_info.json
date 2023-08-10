@@ -1,0 +1,1 @@
+{"[\"/lib/llvm-17/bin/clang\", \"c\", []]": {"compiler_includes": ["/usr/lib/llvm-17/lib/clang/17/include", "/usr/local/include", "/usr/include/aarch64-linux-gnu", "/usr/include"], "compiler_standard": "-std=gnu17", "target": "aarch64-unknown-linux-gnu"}}

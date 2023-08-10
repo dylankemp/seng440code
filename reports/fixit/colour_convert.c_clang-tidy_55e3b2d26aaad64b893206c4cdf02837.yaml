@@ -1,0 +1,775 @@
+---
+MainSourceFile:  '/home/birdy/seng440code/colour_convert.c'
+Diagnostics:
+  - DiagnosticName:  bugprone-narrowing-conversions
+    DiagnosticMessage:
+      Message:         'narrowing conversion from ''float'' to ''WORD'' (aka ''unsigned short'')'
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      3321
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-narrowing-conversions
+    DiagnosticMessage:
+      Message:         'narrowing conversion from ''float'' to ''WORD'' (aka ''unsigned short'')'
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      3326
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-narrowing-conversions
+    DiagnosticMessage:
+      Message:         'narrowing conversion from ''double'' to ''float'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      4165
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-narrowing-conversions
+    DiagnosticMessage:
+      Message:         'narrowing conversion from ''double'' to ''float'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      4235
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-narrowing-conversions
+    DiagnosticMessage:
+      Message:         'narrowing conversion from ''double'' to ''float'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      4305
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-narrowing-conversions
+    DiagnosticMessage:
+      Message:         'narrowing conversion from ''double'' to ''float'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      4375
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-narrowing-conversions
+    DiagnosticMessage:
+      Message:         'narrowing conversion from ''double'' to ''float'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      4447
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-narrowing-conversions
+    DiagnosticMessage:
+      Message:         'narrowing conversion from ''double'' to ''float'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      4517
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-narrowing-conversions
+    DiagnosticMessage:
+      Message:         'narrowing conversion from ''double'' to ''float'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      4588
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-narrowing-conversions
+    DiagnosticMessage:
+      Message:         'narrowing conversion from ''double'' to ''float'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      4658
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-narrowing-conversions
+    DiagnosticMessage:
+      Message:         'narrowing conversion from ''double'' to ''float'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      4729
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-narrowing-conversions
+    DiagnosticMessage:
+      Message:         'narrowing conversion from ''double'' to ''float'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      4799
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-narrowing-conversions
+    DiagnosticMessage:
+      Message:         'narrowing conversion from ''double'' to ''float'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      4870
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-narrowing-conversions
+    DiagnosticMessage:
+      Message:         'narrowing conversion from ''double'' to ''float'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      4940
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  clang-diagnostic-unused-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''imageIdx'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      8795
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      8795
+          Length:          8
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  clang-diagnostic-unused-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''tempRGB'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      8839
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      8839
+          Length:          7
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      9039
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      9039
+          Length:          59
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      9039
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      9219
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      9219
+          Length:          15
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      9219
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      9302
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      9302
+          Length:          59
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      9302
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      9535
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      9535
+          Length:          15
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      9535
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      9673
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      9673
+          Length:          53
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      9673
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      10205
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      10205
+          Length:          15
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      10205
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      10290
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      10290
+          Length:          58
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      10290
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      10437
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      10437
+          Length:          15
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      10437
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      12346
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      12346
+          Length:          16
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      12346
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      12495
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      12495
+          Length:          28
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      12495
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      12529
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      12529
+          Length:          54
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      12529
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      16454
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      16454
+          Length:          60
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      16454
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      17188
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      17188
+          Length:          16
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      17188
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''unsigned long'' of a multiplication performed in type ''uint32_t'' (aka ''unsigned int'')'
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      18998
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      18998
+        Replacements:
+          - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+            Offset:          1
+            Length:          0
+            ReplacementText: "#include <stddef.h>\n"
+          - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+            Offset:          18998
+            Length:          0
+            ReplacementText: '(unsigned long)('
+          - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+            Offset:          19011
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+            FileOffset:      18998
+            Length:          14
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      18998
+        Replacements:
+          - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+            Offset:          18998
+            Length:          0
+            ReplacementText: '(unsigned long)'
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+            FileOffset:      18998
+            Length:          12
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      19046
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      19046
+          Length:          39
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      19046
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      19351
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      19351
+          Length:          18
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      19351
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      19445
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      19445
+          Length:          54
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      19445
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err34-c
+    DiagnosticMessage:
+      Message:         '''fscanf'' used to convert a string to an integer value, but function will not report conversion errors; consider using ''strtol'' instead'
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      19445
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      19505
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      19505
+          Length:          17
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      19505
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      19838
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      19838
+          Length:          18
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      19838
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  clang-diagnostic-unused-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''header_size'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      19943
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      19943
+          Length:          11
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-narrowing-conversions
+    DiagnosticMessage:
+      Message:         'narrowing conversion from ''long'' to signed type ''int'' is implementation-defined'
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      19957
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      19980
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      19980
+          Length:          46
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      19980
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      20032
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      20032
+          Length:          53
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      20032
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''unsigned long'' of a multiplication performed in type ''uint32_t'' (aka ''unsigned int'')'
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      20056
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      20056
+        Replacements:
+          - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+            Offset:          20056
+            Length:          0
+            ReplacementText: '(unsigned long)('
+          - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+            Offset:          20072
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+            FileOffset:      20056
+            Length:          17
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      20056
+        Replacements:
+          - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+            Offset:          20056
+            Length:          0
+            ReplacementText: '(unsigned long)'
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+            FileOffset:      20056
+            Length:          14
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      24078
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      24078
+          Length:          30
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      24078
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      24114
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      24114
+          Length:          66
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      24114
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      24186
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      24186
+          Length:          66
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      24186
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      24290
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      24290
+          Length:          55
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      24290
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      24351
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      24351
+          Length:          54
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      24351
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-implicit-widening-of-multiplication-result
+    DiagnosticMessage:
+      Message:         'performing an implicit widening conversion to type ''unsigned long'' of a multiplication performed in type ''uint32_t'' (aka ''unsigned int'')'
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      24375
+      Replacements:    []
+    Notes:
+      - Message:         make conversion explicit to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      24375
+        Replacements:
+          - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+            Offset:          24375
+            Length:          0
+            ReplacementText: '(unsigned long)('
+          - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+            Offset:          24388
+            Length:          0
+            ReplacementText: ')'
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+            FileOffset:      24375
+            Length:          14
+      - Message:         perform multiplication in a wider type
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      24375
+        Replacements:
+          - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+            Offset:          24375
+            Length:          0
+            ReplacementText: '(unsigned long)'
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+            FileOffset:      24375
+            Length:          12
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      24427
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      24427
+          Length:          17
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      24427
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      24450
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      24450
+          Length:          18
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      24450
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  cert-err33-c
+    DiagnosticMessage:
+      Message:         the value returned by this function should be used
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      24474
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert.c'
+          FileOffset:      24474
+          Length:          18
+    Notes:
+      - Message:         cast the expression to void to silence this warning
+        FilePath:        '/home/birdy/seng440code/colour_convert.c'
+        FileOffset:      24474
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-integer-division
+    DiagnosticMessage:
+      Message:         'result of integer division used in a floating point context; possible loss of precision'
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      24635
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  bugprone-narrowing-conversions
+    DiagnosticMessage:
+      Message:         'narrowing conversion from ''__clock_t'' (aka ''long'') to ''double'''
+      FilePath:        '/home/birdy/seng440code/colour_convert.c'
+      FileOffset:      24635
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+...

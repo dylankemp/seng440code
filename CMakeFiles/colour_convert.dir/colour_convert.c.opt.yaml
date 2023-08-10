@@ -1,0 +1,3135 @@
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert.c, Line: 169, Column: 21 }
+Function:        rgbToCmyk
+Args:
+  - String:          ''''
+  - Callee:          y_clamp
+    DebugLoc:        { File: colour_convert.c, Line: 104, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          rgbToCmyk
+    DebugLoc:        { File: colour_convert.c, Line: 120, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '15'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          rgbToCmyk
+  - String:          ':'
+  - Line:            '49'
+  - String:          ':'
+  - Column:          '21'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert.c, Line: 170, Column: 21 }
+Function:        rgbToCmyk
+Args:
+  - String:          ''''
+  - Callee:          y_clamp
+    DebugLoc:        { File: colour_convert.c, Line: 104, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          rgbToCmyk
+    DebugLoc:        { File: colour_convert.c, Line: 120, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '15'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          rgbToCmyk
+  - String:          ':'
+  - Line:            '50'
+  - String:          ':'
+  - Column:          '21'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert.c, Line: 171, Column: 21 }
+Function:        rgbToCmyk
+Args:
+  - String:          ''''
+  - Callee:          y_clamp
+    DebugLoc:        { File: colour_convert.c, Line: 104, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          rgbToCmyk
+    DebugLoc:        { File: colour_convert.c, Line: 120, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '15'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          rgbToCmyk
+  - String:          ':'
+  - Line:            '51'
+  - String:          ':'
+  - Column:          '21'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert.c, Line: 172, Column: 21 }
+Function:        rgbToCmyk
+Args:
+  - String:          ''''
+  - Callee:          y_clamp
+    DebugLoc:        { File: colour_convert.c, Line: 104, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          rgbToCmyk
+    DebugLoc:        { File: colour_convert.c, Line: 120, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '15'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          rgbToCmyk
+  - String:          ':'
+  - Line:            '52'
+  - String:          ':'
+  - Column:          '21'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert.c, Line: 176, Column: 20 }
+Function:        rgbToCmyk
+Args:
+  - String:          ''''
+  - Callee:          c_clamp
+    DebugLoc:        { File: colour_convert.c, Line: 112, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          rgbToCmyk
+    DebugLoc:        { File: colour_convert.c, Line: 120, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '15'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          rgbToCmyk
+  - String:          ':'
+  - Line:            '56'
+  - String:          ':'
+  - Column:          '20'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert.c, Line: 177, Column: 20 }
+Function:        rgbToCmyk
+Args:
+  - String:          ''''
+  - Callee:          c_clamp
+    DebugLoc:        { File: colour_convert.c, Line: 112, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          rgbToCmyk
+    DebugLoc:        { File: colour_convert.c, Line: 120, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '15'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          rgbToCmyk
+  - String:          ':'
+  - Line:            '57'
+  - String:          ':'
+  - Column:          '20'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert.c, Line: 206, Column: 17 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert.c, Line: 96, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert.c, Line: 195, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '15'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '11'
+  - String:          ':'
+  - Column:          '17'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert.c, Line: 207, Column: 17 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert.c, Line: 96, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert.c, Line: 195, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '15'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '12'
+  - String:          ':'
+  - Column:          '17'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert.c, Line: 208, Column: 17 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert.c, Line: 96, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert.c, Line: 195, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '15'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '13'
+  - String:          ':'
+  - Column:          '17'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert.c, Line: 211, Column: 18 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert.c, Line: 96, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert.c, Line: 195, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '15'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '16'
+  - String:          ':'
+  - Column:          '18'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert.c, Line: 212, Column: 18 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert.c, Line: 96, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert.c, Line: 195, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '15'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '17'
+  - String:          ':'
+  - Column:          '18'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert.c, Line: 213, Column: 18 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert.c, Line: 96, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert.c, Line: 195, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '15'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '18'
+  - String:          ':'
+  - Column:          '18'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert.c, Line: 216, Column: 18 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert.c, Line: 96, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert.c, Line: 195, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '15'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '21'
+  - String:          ':'
+  - Column:          '18'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert.c, Line: 217, Column: 18 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert.c, Line: 96, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert.c, Line: 195, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '15'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '22'
+  - String:          ':'
+  - Column:          '18'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert.c, Line: 218, Column: 18 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert.c, Line: 96, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert.c, Line: 195, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '15'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '23'
+  - String:          ':'
+  - Column:          '18'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert.c, Line: 221, Column: 18 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert.c, Line: 96, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert.c, Line: 195, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '15'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '26'
+  - String:          ':'
+  - Column:          '18'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert.c, Line: 222, Column: 18 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert.c, Line: 96, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert.c, Line: 195, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '15'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '27'
+  - String:          ':'
+  - Column:          '18'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert.c, Line: 223, Column: 18 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert.c, Line: 96, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert.c, Line: 195, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '15'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '28'
+  - String:          ':'
+  - Column:          '18'
+  - String:          ';'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 276, Column: 5 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fread
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 282, Column: 9 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 287, Column: 5 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fread
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 291, Column: 9 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 292, Column: 9 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 299, Column: 5 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 304, Column: 35 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          malloc
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 311, Column: 9 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 316, Column: 5 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fread
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 276, Column: 5 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fread
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 282, Column: 9 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 287, Column: 5 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fread
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 291, Column: 9 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 292, Column: 9 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 299, Column: 5 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 304, Column: 35 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          malloc
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 311, Column: 9 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 316, Column: 5 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fread
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 353, Column: 21 }
+Function:        main
+Args:
+  - Callee:          clock
+    DebugLoc:        { File: '/usr/include/time.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 356, Column: 17 }
+Function:        main
+Args:
+  - Callee:          fopen
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 358, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 372, Column: 34 }
+Function:        main
+Args:
+  - Callee:          malloc
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 373, Column: 33 }
+Function:        main
+Args:
+  - Callee:          malloc
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 382, Column: 22 }
+Function:        main
+Args:
+  - Callee:          fopen
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 384, Column: 9 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 385, Column: 9 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 390, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 391, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fprintf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 470, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 471, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fwrite
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 491, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 497, Column: 5 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 504, Column: 18 }
+Function:        main
+Args:
+  - Callee:          fopen
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 506, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 550, Column: 39 }
+Function:        main
+Args:
+  - Callee:          malloc
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 553, Column: 5 }
+Function:        main
+Args:
+  - Callee:          __isoc99_fscanf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 555, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 558, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 559, Column: 9 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 566, Column: 5 }
+Function:        main
+Args:
+  - Callee:          __isoc99_fscanf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 567, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fgetc
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 569, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 571, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 572, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 575, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 576, Column: 9 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 579, Column: 34 }
+Function:        main
+Args:
+  - Callee:          ftell
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 579, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 580, Column: 23 }
+Function:        main
+Args:
+  - Callee:          ftell
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 581, Column: 23 }
+Function:        main
+Args:
+  - Callee:          ftell
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 581, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 582, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fread
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 584, Column: 18 }
+Function:        main
+Args:
+  - Callee:          fopen
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 586, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 670, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 671, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fwrite
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 672, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fwrite
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 675, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 676, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fwrite
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 679, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 680, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 681, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 682, Column: 5 }
+Function:        main
+Args:
+  - Callee:          free
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 683, Column: 5 }
+Function:        main
+Args:
+  - Callee:          free
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 684, Column: 5 }
+Function:        main
+Args:
+  - Callee:          free
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 685, Column: 5 }
+Function:        main
+Args:
+  - Callee:          free
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 687, Column: 19 }
+Function:        main
+Args:
+  - Callee:          clock
+    DebugLoc:        { File: '/usr/include/time.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 690, Column: 5 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 691, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 353, Column: 21 }
+Function:        main
+Args:
+  - Callee:          clock
+    DebugLoc:        { File: '/usr/include/time.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 356, Column: 17 }
+Function:        main
+Args:
+  - Callee:          fopen
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 358, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 372, Column: 34 }
+Function:        main
+Args:
+  - Callee:          malloc
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 373, Column: 33 }
+Function:        main
+Args:
+  - Callee:          malloc
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 382, Column: 22 }
+Function:        main
+Args:
+  - Callee:          fopen
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 384, Column: 9 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 385, Column: 9 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 390, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 391, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fprintf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 470, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 471, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fwrite
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 491, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 497, Column: 5 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 504, Column: 18 }
+Function:        main
+Args:
+  - Callee:          fopen
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 506, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 550, Column: 39 }
+Function:        main
+Args:
+  - Callee:          malloc
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 553, Column: 5 }
+Function:        main
+Args:
+  - Callee:          __isoc99_fscanf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 555, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 558, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 559, Column: 9 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 566, Column: 5 }
+Function:        main
+Args:
+  - Callee:          __isoc99_fscanf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 567, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fgetc
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 569, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 571, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 572, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 575, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 576, Column: 9 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 579, Column: 34 }
+Function:        main
+Args:
+  - Callee:          ftell
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 579, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 580, Column: 23 }
+Function:        main
+Args:
+  - Callee:          ftell
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 581, Column: 23 }
+Function:        main
+Args:
+  - Callee:          ftell
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 581, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 582, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fread
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 584, Column: 18 }
+Function:        main
+Args:
+  - Callee:          fopen
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 586, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 670, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 671, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fwrite
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 672, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fwrite
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 675, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 676, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fwrite
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 679, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 680, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 681, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 682, Column: 5 }
+Function:        main
+Args:
+  - Callee:          free
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 683, Column: 5 }
+Function:        main
+Args:
+  - Callee:          free
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 684, Column: 5 }
+Function:        main
+Args:
+  - Callee:          free
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 685, Column: 5 }
+Function:        main
+Args:
+  - Callee:          free
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 687, Column: 19 }
+Function:        main
+Args:
+  - Callee:          clock
+    DebugLoc:        { File: '/usr/include/time.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 690, Column: 5 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert.c, Line: 691, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: colour_convert.c, Line: 363, Column: 18 }
+Function:        main
+Args:
+  - String:          ''''
+  - Callee:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '375'
+  - String:          ', threshold='
+  - Threshold:       '225'
+  - String:          ')'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: colour_convert.c, Line: 423, Column: 13 }
+Function:        main
+Args:
+  - String:          ''''
+  - Callee:          rgbToCmyk
+    DebugLoc:        { File: colour_convert.c, Line: 120, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '550'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: colour_convert.c, Line: 644, Column: 17 }
+Function:        main
+Args:
+  - String:          ''''
+  - Callee:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert.c, Line: 195, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          main
+    DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '675'
+  - String:          ', threshold='
+  - Threshold:       '674'
+  - String:          ')'
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert.c, Line: 397, Column: 50 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: colour_convert.c, Line: 397, Column: 50 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert.c, Line: 398, Column: 24 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: colour_convert.c, Line: 398, Column: 24 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert.c, Line: 399, Column: 25 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: colour_convert.c, Line: 399, Column: 25 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert.c, Line: 399, Column: 29 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: colour_convert.c, Line: 399, Column: 29 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert.c, Line: 396, Column: 47 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: colour_convert.c, Line: 396, Column: 47 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert.c, Line: 397, Column: 23 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: colour_convert.c, Line: 397, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert.c, Line: 594, Column: 24 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: colour_convert.c, Line: 594, Column: 24 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert.c, Line: 596, Column: 31 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: colour_convert.c, Line: 596, Column: 31 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert.c, Line: 596, Column: 35 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: colour_convert.c, Line: 596, Column: 35 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert.c, Line: 593, Column: 25 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: colour_convert.c, Line: 593, Column: 25 }
+...
+--- !Analysis
+Pass:            loop-vectorize
+Name:            CantVectorizeLibcall
+DebugLoc:        { File: colour_convert.c, Line: 423, Column: 13 }
+Function:        main
+Args:
+  - String:          'loop not vectorized: '
+  - String:          call instruction cannot be vectorized
+...
+--- !Analysis
+Pass:            loop-vectorize
+Name:            CantComputeNumberOfIterations
+DebugLoc:        { File: colour_convert.c, Line: 397, Column: 9 }
+Function:        main
+Args:
+  - String:          'loop not vectorized: '
+  - String:          could not determine number of loop iterations
+...
+--- !Missed
+Pass:            loop-vectorize
+Name:            MissedDetails
+DebugLoc:        { File: colour_convert.c, Line: 397, Column: 9 }
+Function:        main
+Args:
+  - String:          loop not vectorized
+...
+--- !Analysis
+Pass:            loop-vectorize
+Name:            CantVectorizeLibcall
+DebugLoc:        { File: colour_convert.c, Line: 644, Column: 17 }
+Function:        main
+Args:
+  - String:          'loop not vectorized: '
+  - String:          call instruction cannot be vectorized
+...
+--- !Analysis
+Pass:            loop-vectorize
+Name:            CantComputeNumberOfIterations
+DebugLoc:        { File: colour_convert.c, Line: 593, Column: 9 }
+Function:        main
+Args:
+  - String:          'loop not vectorized: '
+  - String:          could not determine number of loop iterations
+...
+--- !Missed
+Pass:            loop-vectorize
+Name:            MissedDetails
+DebugLoc:        { File: colour_convert.c, Line: 593, Column: 9 }
+Function:        main
+Args:
+  - String:          loop not vectorized
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: colour_convert.c, Line: 95, Column: 1 }
+Function:        rgb_clamp
+Args:
+  - NumVRCopies:     '1'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.000000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: colour_convert.c, Line: 96, Column: 0 }
+Function:        rgb_clamp
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: colour_convert.c, Line: 103, Column: 1 }
+Function:        y_clamp
+Args:
+  - NumVRCopies:     '1'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.000000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: colour_convert.c, Line: 104, Column: 0 }
+Function:        y_clamp
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: colour_convert.c, Line: 111, Column: 1 }
+Function:        c_clamp
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '2.000000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: colour_convert.c, Line: 112, Column: 0 }
+Function:        c_clamp
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: colour_convert.c, Line: 120, Column: 1 }
+Function:        rgbToCmyk
+Args:
+  - NumVRCopies:     '11'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.100000e+01'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: colour_convert.c, Line: 120, Column: 0 }
+Function:        rgbToCmyk
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: colour_convert.c, Line: 195, Column: 1 }
+Function:        YCbCrTorgb
+Args:
+  - NumVRCopies:     '6'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.000000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: colour_convert.c, Line: 195, Column: 0 }
+Function:        YCbCrTorgb
+Args:
+  - NumStackBytes:   '32'
+  - String:          ' stack bytes in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: colour_convert.c, Line: 261, Column: 1 }
+Function:        LoadBitmapFile
+Args:
+  - NumVRCopies:     '20'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '9.858824e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+Function:        LoadBitmapFile
+Args:
+  - NumStackBytes:   '48'
+  - String:          ' stack bytes in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: colour_convert.c, Line: 593, Column: 9 }
+Function:        main
+Args:
+  - NumReloads:      '1'
+  - String:          ' reloads '
+  - TotalReloadsCost: '1.222350e+01'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '1'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.222350e+01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: colour_convert.c, Line: 591, Column: 5 }
+Function:        main
+Args:
+  - NumReloads:      '3'
+  - String:          ' reloads '
+  - TotalReloadsCost: '1.374785e+01'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.260459e+01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: colour_convert.c, Line: 397, Column: 9 }
+Function:        main
+Args:
+  - NumSpills:       '13'
+  - String:          ' spills '
+  - TotalSpillsCost: '2.034295e+03'
+  - String:          ' total spills cost '
+  - NumReloads:      '16'
+  - String:          ' reloads '
+  - TotalReloadsCost: '2.503748e+03'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '3.129685e+02'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: colour_convert.c, Line: 396, Column: 5 }
+Function:        main
+Args:
+  - NumSpills:       '16'
+  - String:          ' spills '
+  - TotalSpillsCost: '2.057762e+03'
+  - String:          ' total spills cost '
+  - NumReloads:      '25'
+  - String:          ' reloads '
+  - TotalReloadsCost: '2.568281e+03'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '3'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '3.178568e+02'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: colour_convert.c, Line: 340, Column: 1 }
+Function:        main
+Args:
+  - NumSpills:       '34'
+  - String:          ' spills '
+  - TotalSpillsCost: '2.062843e+03'
+  - String:          ' total spills cost '
+  - NumReloads:      '41'
+  - String:          ' reloads '
+  - TotalReloadsCost: '2.583631e+03'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '50'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '3.416963e+02'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+Function:        main
+Args:
+  - NumStackBytes:   '464'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        rgb_clamp
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: colour_convert.c, Line: 96, Column: 0 }
+Function:        rgb_clamp
+Args:
+  - NumInstructions: '8'
+  - String:          ' instructions in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        y_clamp
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: colour_convert.c, Line: 104, Column: 0 }
+Function:        y_clamp
+Args:
+  - NumInstructions: '11'
+  - String:          ' instructions in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        c_clamp
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: colour_convert.c, Line: 112, Column: 0 }
+Function:        c_clamp
+Args:
+  - NumInstructions: '11'
+  - String:          ' instructions in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        rgbToCmyk
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '171'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: colour_convert.c, Line: 120, Column: 0 }
+Function:        rgbToCmyk
+Args:
+  - NumInstructions: '171'
+  - String:          ' instructions in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        YCbCrTorgb
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '166'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: colour_convert.c, Line: 195, Column: 0 }
+Function:        YCbCrTorgb
+Args:
+  - NumInstructions: '166'
+  - String:          ' instructions in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        LoadBitmapFile
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '16'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        LoadBitmapFile
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        LoadBitmapFile
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        LoadBitmapFile
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        LoadBitmapFile
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        LoadBitmapFile
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        LoadBitmapFile
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        LoadBitmapFile
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: colour_convert.c, Line: 262, Column: 0 }
+Function:        LoadBitmapFile
+Args:
+  - NumInstructions: '53'
+  - String:          ' instructions in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '17'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '21'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '21'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '12'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '12'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '93'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '19'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '18'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '24'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '25'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '41'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 697, Column: 1 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '58'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: colour_convert.c, Line: 0, Column: 0 }
+Function:        main
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: colour_convert.c, Line: 340, Column: 0 }
+Function:        main
+Args:
+  - NumInstructions: '417'
+  - String:          ' instructions in function'
+...

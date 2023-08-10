@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "colour_convert",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "colour_convert::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-colour_convert-RelWithDebInfo-8f549e66c05aaed13ce1.json",
+					"name" : "colour_convert",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "colour_convert_int::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-colour_convert_int-RelWithDebInfo-250179e5eff15a9e1ef8.json",
+					"name" : "colour_convert_int",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "colour_convert_int_vec::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-colour_convert_int_vec-RelWithDebInfo-123b4e807e404eb5ec64.json",
+					"name" : "colour_convert_int_vec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "colour_convert_thread::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-colour_convert_thread-RelWithDebInfo-36272d3720732b8b0774.json",
+					"name" : "colour_convert_thread",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/birdy/seng440code/build",
+		"source" : "/home/birdy/seng440code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

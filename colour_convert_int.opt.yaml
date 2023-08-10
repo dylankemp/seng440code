@@ -1,0 +1,4601 @@
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert_int.1.c, Line: 158, Column: 13 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 44, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 147, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '30'
+  - String:          ', threshold='
+  - Threshold:       '250'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '18'
+  - String:          ':'
+  - Column:          '13'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert_int.1.c, Line: 159, Column: 13 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 44, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 147, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '30'
+  - String:          ', threshold='
+  - Threshold:       '250'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '19'
+  - String:          ':'
+  - Column:          '13'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert_int.1.c, Line: 161, Column: 13 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 44, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 147, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '30'
+  - String:          ', threshold='
+  - Threshold:       '250'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '21'
+  - String:          ':'
+  - Column:          '13'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert_int.1.c, Line: 164, Column: 14 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 44, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 147, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '30'
+  - String:          ', threshold='
+  - Threshold:       '250'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '24'
+  - String:          ':'
+  - Column:          '14'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert_int.1.c, Line: 165, Column: 14 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 44, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 147, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '30'
+  - String:          ', threshold='
+  - Threshold:       '250'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '25'
+  - String:          ':'
+  - Column:          '14'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert_int.1.c, Line: 167, Column: 14 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 44, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 147, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '30'
+  - String:          ', threshold='
+  - Threshold:       '250'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '27'
+  - String:          ':'
+  - Column:          '14'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert_int.1.c, Line: 170, Column: 14 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 44, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 147, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '30'
+  - String:          ', threshold='
+  - Threshold:       '250'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '30'
+  - String:          ':'
+  - Column:          '14'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert_int.1.c, Line: 171, Column: 14 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 44, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 147, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '30'
+  - String:          ', threshold='
+  - Threshold:       '250'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '31'
+  - String:          ':'
+  - Column:          '14'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert_int.1.c, Line: 173, Column: 14 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 44, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 147, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '30'
+  - String:          ', threshold='
+  - Threshold:       '250'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '33'
+  - String:          ':'
+  - Column:          '14'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert_int.1.c, Line: 176, Column: 14 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 44, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 147, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '30'
+  - String:          ', threshold='
+  - Threshold:       '250'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '36'
+  - String:          ':'
+  - Column:          '14'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert_int.1.c, Line: 177, Column: 14 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 44, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 147, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '30'
+  - String:          ', threshold='
+  - Threshold:       '250'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '37'
+  - String:          ':'
+  - Column:          '14'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert_int.1.c, Line: 179, Column: 14 }
+Function:        YCbCrTorgb
+Args:
+  - String:          ''''
+  - Callee:          rgb_clamp
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 44, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 147, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '30'
+  - String:          ', threshold='
+  - Threshold:       '250'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          YCbCrTorgb
+  - String:          ':'
+  - Line:            '39'
+  - String:          ':'
+  - Column:          '14'
+  - String:          ';'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 230, Column: 5 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fread
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 234, Column: 9 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 239, Column: 5 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fread
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 243, Column: 9 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 244, Column: 9 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 250, Column: 5 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 255, Column: 36 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          malloc
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 261, Column: 9 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 266, Column: 5 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fread
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 230, Column: 5 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fread
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 234, Column: 9 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 239, Column: 5 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fread
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 243, Column: 9 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 244, Column: 9 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 250, Column: 5 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 255, Column: 36 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          malloc
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 261, Column: 9 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 266, Column: 5 }
+Function:        LoadBitmapFile
+Args:
+  - Callee:          fread
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 233, Column: 27 }
+Function:        LoadBitmapFile
+Args:
+  - String:          'load of type '
+  - Type:            i16
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 230, Column: 5 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 242, Column: 27 }
+Function:        LoadBitmapFile
+Args:
+  - String:          'load of type '
+  - Type:            i16
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 239, Column: 5 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 255, Column: 61 }
+Function:        LoadBitmapFile
+Args:
+  - String:          'load of type '
+  - Type:            i32
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 250, Column: 5 }
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 291, Column: 17 }
+Function:        main
+Args:
+  - Callee:          fopen
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 293, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 306, Column: 35 }
+Function:        main
+Args:
+  - Callee:          malloc
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 307, Column: 34 }
+Function:        main
+Args:
+  - Callee:          malloc
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 309, Column: 22 }
+Function:        main
+Args:
+  - Callee:          fopen
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 311, Column: 9 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 312, Column: 9 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 316, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 317, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fprintf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 376, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 377, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fwrite
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 381, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 384, Column: 5 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 391, Column: 18 }
+Function:        main
+Args:
+  - Callee:          fopen
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 393, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 397, Column: 40 }
+Function:        main
+Args:
+  - Callee:          malloc
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 400, Column: 5 }
+Function:        main
+Args:
+  - Callee:          __isoc99_fscanf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 402, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 413, Column: 5 }
+Function:        main
+Args:
+  - Callee:          __isoc99_fscanf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 414, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fgetc
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 416, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 418, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 419, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 405, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 406, Column: 9 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 422, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 423, Column: 9 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 426, Column: 35 }
+Function:        main
+Args:
+  - Callee:          ftell
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 426, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 427, Column: 23 }
+Function:        main
+Args:
+  - Callee:          ftell
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 428, Column: 23 }
+Function:        main
+Args:
+  - Callee:          ftell
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 428, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 429, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fread
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 431, Column: 18 }
+Function:        main
+Args:
+  - Callee:          fopen
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 433, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 475, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 476, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fwrite
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 477, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fwrite
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 480, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 481, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fwrite
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 484, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 485, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 486, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 487, Column: 5 }
+Function:        main
+Args:
+  - Callee:          free
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 488, Column: 5 }
+Function:        main
+Args:
+  - Callee:          free
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 489, Column: 5 }
+Function:        main
+Args:
+  - Callee:          free
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 490, Column: 5 }
+Function:        main
+Args:
+  - Callee:          free
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 492, Column: 5 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 291, Column: 17 }
+Function:        main
+Args:
+  - Callee:          fopen
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 293, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 306, Column: 35 }
+Function:        main
+Args:
+  - Callee:          malloc
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 307, Column: 34 }
+Function:        main
+Args:
+  - Callee:          malloc
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 309, Column: 22 }
+Function:        main
+Args:
+  - Callee:          fopen
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 311, Column: 9 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 312, Column: 9 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 316, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 317, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fprintf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 376, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 377, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fwrite
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 381, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 384, Column: 5 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 391, Column: 18 }
+Function:        main
+Args:
+  - Callee:          fopen
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 393, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 397, Column: 40 }
+Function:        main
+Args:
+  - Callee:          malloc
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 400, Column: 5 }
+Function:        main
+Args:
+  - Callee:          __isoc99_fscanf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 402, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 413, Column: 5 }
+Function:        main
+Args:
+  - Callee:          __isoc99_fscanf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 414, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fgetc
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 416, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 418, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 419, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 405, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 406, Column: 9 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 422, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 423, Column: 9 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 426, Column: 35 }
+Function:        main
+Args:
+  - Callee:          ftell
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 426, Column: 5 }
+Function:        main
+Args:
+  - Callee:          printf
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 427, Column: 23 }
+Function:        main
+Args:
+  - Callee:          ftell
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 428, Column: 23 }
+Function:        main
+Args:
+  - Callee:          ftell
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 428, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 429, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fread
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 431, Column: 18 }
+Function:        main
+Args:
+  - Callee:          fopen
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 433, Column: 9 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 475, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 476, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fwrite
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 477, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fwrite
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 480, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fseek
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 481, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fwrite
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 484, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 485, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 486, Column: 5 }
+Function:        main
+Args:
+  - Callee:          fclose
+    DebugLoc:        { File: '/usr/include/stdio.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 487, Column: 5 }
+Function:        main
+Args:
+  - Callee:          free
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 488, Column: 5 }
+Function:        main
+Args:
+  - Callee:          free
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 489, Column: 5 }
+Function:        main
+Args:
+  - Callee:          free
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 490, Column: 5 }
+Function:        main
+Args:
+  - Callee:          free
+    DebugLoc:        { File: '/usr/include/stdlib.h', Line: 0, Column: 0 }
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: colour_convert_int.1.c, Line: 492, Column: 5 }
+Function:        main
+Args:
+  - Callee:          puts
+  - String:          ' will not be inlined into '
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: colour_convert_int.1.c, Line: 299, Column: 9 }
+Function:        main
+Args:
+  - String:          ''''
+  - Callee:          LoadBitmapFile
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 217, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '435'
+  - String:          ', threshold='
+  - Threshold:       '250'
+  - String:          ')'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: colour_convert_int.1.c, Line: 350, Column: 13 }
+Function:        main
+Args:
+  - String:          ''''
+  - Callee:          rgbToCmyk
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 70, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '260'
+  - String:          ', threshold='
+  - Threshold:       '787'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          main
+  - String:          ':'
+  - Line:            '73'
+  - String:          ':'
+  - Column:          '13'
+  - String:          ';'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: colour_convert_int.1.c, Line: 458, Column: 13 }
+Function:        main
+Args:
+  - String:          ''''
+  - Callee:          YCbCrTorgb
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 147, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          main
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 277, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '865'
+  - String:          ', threshold='
+  - Threshold:       '250'
+  - String:          ')'
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 50 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 50 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: colour_convert_int.1.c, Line: 70, Column: 54 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressCondExecuted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          failed to hoist load with loop-invariant address because load is conditionally executed
+...
+--- !Passed
+Pass:            licm
+Name:            PromoteLoopAccessesToScalar
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          Moving accesses to memory location out of the loop
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressCondExecuted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 70, Column: 54 }
+Function:        main
+Args:
+  - String:          failed to hoist load with loop-invariant address because load is conditionally executed
+...
+--- !Passed
+Pass:            licm
+Name:            PromoteLoopAccessesToScalar
+DebugLoc:        { File: colour_convert_int.1.c, Line: 70, Column: 54 }
+Function:        main
+Args:
+  - String:          Moving accesses to memory location out of the loop
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 326, Column: 24 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 326, Column: 24 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 328, Column: 26 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 328, Column: 26 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 328, Column: 31 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 328, Column: 31 }
+...
+--- !Passed
+Pass:            licm
+Name:            PromoteLoopAccessesToScalar
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          Moving accesses to memory location out of the loop
+...
+--- !Passed
+Pass:            licm
+Name:            PromoteLoopAccessesToScalar
+DebugLoc:        { File: colour_convert_int.1.c, Line: 70, Column: 54 }
+Function:        main
+Args:
+  - String:          Moving accesses to memory location out of the loop
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 322, Column: 47 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 322, Column: 47 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: colour_convert_int.1.c, Line: 322, Column: 5 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressCondExecuted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 322, Column: 5 }
+Function:        main
+Args:
+  - String:          failed to hoist load with loop-invariant address because load is conditionally executed
+...
+--- !Passed
+Pass:            licm
+Name:            PromoteLoopAccessesToScalar
+DebugLoc:        { File: colour_convert_int.1.c, Line: 322, Column: 5 }
+Function:        main
+Args:
+  - String:          Moving accesses to memory location out of the loop
+...
+--- !Passed
+Pass:            licm
+Name:            PromoteLoopAccessesToScalar
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          Moving accesses to memory location out of the loop
+...
+--- !Passed
+Pass:            licm
+Name:            PromoteLoopAccessesToScalar
+DebugLoc:        { File: colour_convert_int.1.c, Line: 70, Column: 54 }
+Function:        main
+Args:
+  - String:          Moving accesses to memory location out of the loop
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 23 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            PromoteLoopAccessesToScalar
+DebugLoc:        { File: colour_convert_int.1.c, Line: 322, Column: 5 }
+Function:        main
+Args:
+  - String:          Moving accesses to memory location out of the loop
+...
+--- !Passed
+Pass:            licm
+Name:            PromoteLoopAccessesToScalar
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          Moving accesses to memory location out of the loop
+...
+--- !Passed
+Pass:            licm
+Name:            PromoteLoopAccessesToScalar
+DebugLoc:        { File: colour_convert_int.1.c, Line: 70, Column: 54 }
+Function:        main
+Args:
+  - String:          Moving accesses to memory location out of the loop
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: colour_convert_int.1.c, Line: 445, Column: 9 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: colour_convert_int.1.c, Line: 445, Column: 9 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 446, Column: 24 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 446, Column: 24 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 448, Column: 32 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 448, Column: 32 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 448, Column: 37 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 448, Column: 37 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: colour_convert_int.1.c, Line: 442, Column: 5 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: colour_convert_int.1.c, Line: 442, Column: 5 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 445, Column: 27 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 445, Column: 27 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: colour_convert_int.1.c, Line: 442, Column: 5 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Passed
+Pass:            licm
+Name:            PromoteLoopAccessesToScalar
+DebugLoc:        { File: colour_convert_int.1.c, Line: 442, Column: 5 }
+Function:        main
+Args:
+  - String:          Moving accesses to memory location out of the loop
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: colour_convert_int.1.c, Line: 445, Column: 9 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: colour_convert_int.1.c, Line: 445, Column: 9 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: colour_convert_int.1.c, Line: 442, Column: 5 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: colour_convert_int.1.c, Line: 442, Column: 5 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Passed
+Pass:            loop-delete
+Name:            Invariant
+DebugLoc:        { File: colour_convert_int.1.c, Line: 322, Column: 5 }
+Function:        main
+Args:
+  - String:          Loop deleted because it is invariant
+...
+--- !Passed
+Pass:            loop-delete
+Name:            Invariant
+DebugLoc:        { File: colour_convert_int.1.c, Line: 442, Column: 5 }
+Function:        main
+Args:
+  - String:          Loop deleted because it is invariant
+...
+--- !Passed
+Pass:            TTI
+Name:            DontUnroll
+DebugLoc:        { File: colour_convert_int.1.c, Line: 445, Column: 9 }
+Function:        main
+Args:
+  - String:          'advising against unrolling the loop because it contains a '
+  - Call:            call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 458, Column: 13 }
+...
+--- !Passed
+Pass:            TTI
+Name:            DontUnroll
+DebugLoc:        { File: colour_convert_int.1.c, Line: 442, Column: 5 }
+Function:        main
+Args:
+  - String:          'advising against unrolling the loop because it contains a '
+  - Call:            call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 458, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 301, Column: 39 }
+Function:        main
+Args:
+  - String:          'load of type '
+  - Type:            i32
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 299, Column: 9 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 302, Column: 40 }
+Function:        main
+Args:
+  - String:          'load of type '
+  - Type:            i32
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 299, Column: 9 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 307, Column: 58 }
+Function:        main
+Args:
+  - String:          'load of type '
+  - Type:            i32
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 299, Column: 9 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 404, Column: 9 }
+Function:        main
+Args:
+  - String:          'load of type '
+  - Type:            i8
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 402, Column: 5 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 416, Column: 28 }
+Function:        main
+Args:
+  - String:          'load of type '
+  - Type:            i32
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 414, Column: 5 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 418, Column: 31 }
+Function:        main
+Args:
+  - String:          'load of type '
+  - Type:            i32
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 416, Column: 5 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 419, Column: 30 }
+Function:        main
+Args:
+  - String:          'load of type '
+  - Type:            i32
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 418, Column: 5 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 421, Column: 14 }
+Function:        main
+Args:
+  - String:          'load of type '
+  - Type:            i32
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 416, Column: 28 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 419, Column: 5 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 480, Column: 40 }
+Function:        main
+Args:
+  - String:          'load of type '
+  - Type:            i32
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 476, Column: 5 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 301, Column: 39 }
+Function:        main
+Args:
+  - String:          'load of type '
+  - Type:            i32
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 299, Column: 9 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 302, Column: 40 }
+Function:        main
+Args:
+  - String:          'load of type '
+  - Type:            i32
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 299, Column: 9 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 307, Column: 58 }
+Function:        main
+Args:
+  - String:          'load of type '
+  - Type:            i32
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 299, Column: 9 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 404, Column: 9 }
+Function:        main
+Args:
+  - String:          'load of type '
+  - Type:            i8
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 402, Column: 5 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 416, Column: 28 }
+Function:        main
+Args:
+  - String:          'load of type '
+  - Type:            i32
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 414, Column: 5 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 418, Column: 31 }
+Function:        main
+Args:
+  - String:          'load of type '
+  - Type:            i32
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 416, Column: 5 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 419, Column: 30 }
+Function:        main
+Args:
+  - String:          'load of type '
+  - Type:            i32
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 418, Column: 5 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 421, Column: 14 }
+Function:        main
+Args:
+  - String:          'load of type '
+  - Type:            i32
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 416, Column: 28 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 419, Column: 5 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: colour_convert_int.1.c, Line: 480, Column: 40 }
+Function:        main
+Args:
+  - String:          'load of type '
+  - Type:            i32
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 476, Column: 5 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: colour_convert_int.1.c, Line: 445, Column: 9 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: colour_convert_int.1.c, Line: 442, Column: 5 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 90, Column: 46 }
+Function:        rgbToCmyk
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 90, Column: 32 }
+Function:        rgbToCmyk
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 91, Column: 46 }
+Function:        rgbToCmyk
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 91, Column: 32 }
+Function:        rgbToCmyk
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 92, Column: 47 }
+Function:        rgbToCmyk
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 92, Column: 33 }
+Function:        rgbToCmyk
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 93, Column: 47 }
+Function:        rgbToCmyk
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 93, Column: 33 }
+Function:        rgbToCmyk
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+Function:        rgbToCmyk
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+Function:        rgbToCmyk
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 82, Column: 15 }
+Function:        rgbToCmyk
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 81, Column: 15 }
+Function:        rgbToCmyk
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 80, Column: 15 }
+Function:        rgbToCmyk
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+Function:        rgbToCmyk
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+Function:        rgbToCmyk
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 80, Column: 15 }
+Function:        rgbToCmyk
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 82, Column: 15 }
+Function:        rgbToCmyk
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 81, Column: 15 }
+Function:        rgbToCmyk
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 158, Column: 52 }
+Function:        YCbCrTorgb
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            loop-distribute
+Name:            NotDistributed
+DebugLoc:        { File: colour_convert_int.1.c, Line: 445, Column: 9 }
+Function:        main
+Args:
+  - String:          'loop not distributed: use -Rpass-analysis=loop-distribute for more info'
+...
+--- !Analysis
+Pass:            loop-distribute
+Name:            NoUnsafeDeps
+DebugLoc:        { File: colour_convert_int.1.c, Line: 445, Column: 9 }
+Function:        main
+Args:
+  - String:          'loop not distributed: '
+  - String:          no unsafe dependences to isolate
+...
+--- !Missed
+Pass:            loop-distribute
+Name:            NotDistributed
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'loop not distributed: use -Rpass-analysis=loop-distribute for more info'
+...
+--- !Analysis
+Pass:            loop-distribute
+Name:            MemOpsCanBeVectorized
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'loop not distributed: '
+  - String:          memory operations are safe for vectorization
+...
+--- !Analysis
+Pass:            loop-vectorize
+Name:            InterleavingNotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          the cost-model indicates that interleaving is not beneficial
+...
+--- !Passed
+Pass:            loop-vectorize
+Name:            Vectorized
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'vectorized loop (vectorization width: '
+  - VectorizationFactor: '2'
+  - String:          ', interleaved count: '
+  - InterleaveCount: '1'
+  - String:          ')'
+...
+--- !Analysis
+Pass:            loop-vectorize
+Name:            CantVectorizeLibcall
+DebugLoc:        { File: colour_convert_int.1.c, Line: 458, Column: 13 }
+Function:        main
+Args:
+  - String:          'loop not vectorized: '
+  - String:          call instruction cannot be vectorized
+...
+--- !Analysis
+Pass:            loop-vectorize
+Name:            CantComputeNumberOfIterations
+DebugLoc:        { File: colour_convert_int.1.c, Line: 445, Column: 9 }
+Function:        main
+Args:
+  - String:          'loop not vectorized: '
+  - String:          could not determine number of loop iterations
+...
+--- !Missed
+Pass:            loop-vectorize
+Name:            MissedDetails
+DebugLoc:        { File: colour_convert_int.1.c, Line: 445, Column: 9 }
+Function:        main
+Args:
+  - String:          loop not vectorized
+  - String:          ' (Force='
+  - Force:           'true'
+  - String:          ')'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 450, Column: 24 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 452, Column: 24 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 450, Column: 24 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 455, Column: 23 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 463, Column: 25 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 452, Column: 24 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 467, Column: 25 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 469, Column: 25 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 333, Column: 35 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 335, Column: 36 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 338, Column: 37 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 341, Column: 35 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 343, Column: 36 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 346, Column: 37 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 333, Column: 35 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 335, Column: 36 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 338, Column: 37 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 341, Column: 35 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 343, Column: 36 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 346, Column: 37 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 347, Column: 54 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 346, Column: 55 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 345, Column: 53 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 343, Column: 54 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 342, Column: 55 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 341, Column: 35 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 339, Column: 53 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 338, Column: 54 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 337, Column: 52 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 335, Column: 53 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 334, Column: 54 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 333, Column: 35 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 334, Column: 37 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 335, Column: 36 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 337, Column: 35 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 338, Column: 37 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 339, Column: 36 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 341, Column: 35 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 342, Column: 37 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 343, Column: 36 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 345, Column: 35 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 346, Column: 37 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 347, Column: 36 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 333, Column: 35 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 334, Column: 37 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 335, Column: 36 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 337, Column: 35 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 338, Column: 37 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 339, Column: 36 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 341, Column: 35 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 342, Column: 37 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 343, Column: 36 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 345, Column: 35 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 346, Column: 37 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 347, Column: 36 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            HorSLPNotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Vectorizing horizontal reduction is possible '
+  - String:          'but not beneficial with cost '
+  - Cost:            '22'
+  - String:          ' and threshold '
+  - Threshold:       '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            HorSLPNotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Vectorizing horizontal reduction is possible '
+  - String:          'but not beneficial with cost '
+  - Cost:            '25'
+  - String:          ' and threshold '
+  - Threshold:       '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            HorSLPNotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Vectorizing horizontal reduction is possible '
+  - String:          'but not beneficial with cost '
+  - Cost:            '25'
+  - String:          ' and threshold '
+  - Threshold:       '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            HorSLPNotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Vectorizing horizontal reduction is possible '
+  - String:          'but not beneficial with cost '
+  - Cost:            '22'
+  - String:          ' and threshold '
+  - Threshold:       '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            HorSLPNotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Vectorizing horizontal reduction is possible '
+  - String:          'but not beneficial with cost '
+  - Cost:            '17'
+  - String:          ' and threshold '
+  - Threshold:       '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            HorSLPNotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Vectorizing horizontal reduction is possible '
+  - String:          'but not beneficial with cost '
+  - Cost:            '11'
+  - String:          ' and threshold '
+  - Threshold:       '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            HorSLPNotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Vectorizing horizontal reduction is possible '
+  - String:          'but not beneficial with cost '
+  - Cost:            '11'
+  - String:          ' and threshold '
+  - Threshold:       '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            HorSLPNotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Vectorizing horizontal reduction is possible '
+  - String:          'but not beneficial with cost '
+  - Cost:            '9'
+  - String:          ' and threshold '
+  - Threshold:       '0'
+...
+--- !Passed
+Pass:            slp-vectorizer
+Name:            VectorizedHorizontalReduction
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Vectorized horizontal reduction with cost '
+  - Cost:            '-2'
+  - String:          ' and with tree size '
+  - TreeSize:        '9'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            HorSLPNotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Vectorizing horizontal reduction is possible '
+  - String:          'but not beneficial with cost '
+  - Cost:            '6'
+  - String:          ' and threshold '
+  - Threshold:       '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            HorSLPNotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Vectorizing horizontal reduction is possible '
+  - String:          'but not beneficial with cost '
+  - Cost:            '3'
+  - String:          ' and threshold '
+  - Threshold:       '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            HorSLPNotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Vectorizing horizontal reduction is possible '
+  - String:          'but not beneficial with cost '
+  - Cost:            '19'
+  - String:          ' and threshold '
+  - Threshold:       '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            HorSLPNotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Vectorizing horizontal reduction is possible '
+  - String:          'but not beneficial with cost '
+  - Cost:            '3'
+  - String:          ' and threshold '
+  - Threshold:       '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            HorSLPNotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Vectorizing horizontal reduction is possible '
+  - String:          'but not beneficial with cost '
+  - Cost:            '6'
+  - String:          ' and threshold '
+  - Threshold:       '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            HorSLPNotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Vectorizing horizontal reduction is possible '
+  - String:          'but not beneficial with cost '
+  - Cost:            '10'
+  - String:          ' and threshold '
+  - Threshold:       '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            HorSLPNotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Vectorizing horizontal reduction is possible '
+  - String:          'but not beneficial with cost '
+  - Cost:            '10'
+  - String:          ' and threshold '
+  - Threshold:       '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            HorSLPNotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Vectorizing horizontal reduction is possible '
+  - String:          'but not beneficial with cost '
+  - Cost:            '11'
+  - String:          ' and threshold '
+  - Threshold:       '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotPossible
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'Cannot SLP vectorize list: vectorization was impossible'
+  - String:          ' with available vectorization factors'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Missed
+Pass:            slp-vectorizer
+Name:            NotBeneficial
+Function:        main
+Args:
+  - String:          'List vectorization was possible but not beneficial with cost '
+  - Cost:            '0'
+  - String:          ' >= '
+  - Treshold:        '0'
+...
+--- !Passed
+Pass:            TTI
+Name:            DontUnroll
+DebugLoc:        { File: colour_convert_int.1.c, Line: 445, Column: 9 }
+Function:        main
+Args:
+  - String:          'advising against unrolling the loop because it contains a '
+  - Call:            call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 458, Column: 13 }
+...
+--- !Passed
+Pass:            TTI
+Name:            DontUnroll
+DebugLoc:        { File: colour_convert_int.1.c, Line: 442, Column: 5 }
+Function:        main
+Args:
+  - String:          'advising against unrolling the loop because it contains a '
+  - Call:            call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 458, Column: 13 }
+...
+--- !Failure
+Pass:            transform-warning
+Name:            FailedRequestedVectorization
+DebugLoc:        { File: colour_convert_int.1.c, Line: 322, Column: 5 }
+Function:        main
+Args:
+  - String:          'loop not vectorized: the optimizer was unable to perform the requested transformation; the transformation might be disabled or specified as part of an unsupported transformation ordering'
+...
+--- !Failure
+Pass:            transform-warning
+Name:            FailedRequestedVectorization
+DebugLoc:        { File: colour_convert_int.1.c, Line: 442, Column: 5 }
+Function:        main
+Args:
+  - String:          'loop not vectorized: the optimizer was unable to perform the requested transformation; the transformation might be disabled or specified as part of an unsupported transformation ordering'
+...
+--- !Failure
+Pass:            transform-warning
+Name:            FailedRequestedVectorization
+DebugLoc:        { File: colour_convert_int.1.c, Line: 445, Column: 9 }
+Function:        main
+Args:
+  - String:          'loop not vectorized: the optimizer was unable to perform the requested transformation; the transformation might be disabled or specified as part of an unsupported transformation ordering'
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            trunc
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            trunc
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            trunc
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            trunc
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            trunc
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            trunc
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            trunc
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            trunc
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            trunc
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            trunc
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            trunc
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            trunc
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            extractvalue
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            insertelement
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            insertelement
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            insertelement
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            insertelement
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            or
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            or
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            or
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            or
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            or
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            or
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            or
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            or
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            or
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            or
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            and
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+Function:        main
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: colour_convert_int.1.c, Line: 325, Column: 9 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: colour_convert_int.1.c, Line: 445, Column: 9 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: colour_convert_int.1.c, Line: 442, Column: 5 }
+Function:        main
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...

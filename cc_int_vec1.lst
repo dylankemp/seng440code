@@ -1,0 +1,517 @@
+< colour_convert_int.1.c
+  1       | 
+  2       | #include <stdio.h>
+  3       | #include <stdlib.h>
+  4       | // #include <math.h>
+  5       | #include <stdint.h>
+  6       | 
+  7       | typedef uint32_t DWORD; // DWORD = unsigned 32 bit value
+  8       | typedef uint16_t WORD;  // WORD = unsigned 16 bit value
+  9       | typedef uint8_t BYTE;   // BYTE = unsigned 8 bit value
+ 10       | 
+ 11       | #define K 8
+ 12       | 
+ 13       | // #include "pico/stdlib.h"
+ 14       | // #include "pico/float.h"
+ 15       | 
+ 16       | // #pragma pack(push, 1)
+ 17       | // typedef struct {
+ 18       | //     unsigned char signature[2];
+ 19       | //     unsigned int fileSize;
+ 20       | //     unsigned short reserved1;
+ 21       | //     unsigned short reserved2;
+ 22       | //     unsigned int dataOffset;
+ 23       | // } BitmapFileHeader;
+ 24       | // #pragma pack(pop)
+ 25       | 
+ 26       | #pragma pack(push, 1)
+ 27       | 
+ 28       | typedef struct tagBITMAPFILEHEADER {
+ 29       |     WORD bfType;      // specifies the file type
+ 30       |     DWORD bfSize;     // specifies the size in bytes of the bitmap file
+ 31       |     WORD bfReserved1; // reserved; must be 0
+ 32       |     WORD bfReserved2; // reserved; must be 0
+ 33       |     DWORD bfOffBits;  // specifies the offset in bytes from the bitmapfileheader
+ 34       |                       // to the bitmap bits
+ 35       | } BITMAPFILEHEADER;
+ 36       | 
+ 37       | #pragma pack(pop)
+ 38       | 
+ 39       | #pragma pack(push, 1)
+ 40       | 
+ 41       | typedef struct tagBITMAPINFOHEADER {
+ 42       |     DWORD biSize;        // specifies the number of bytes required by the struct
+ 43       |     uint32_t biWidth;    // specifies width in pixels
+ 44       |     uint32_t biHeight;   // specifies height in pixels
+ 45       |     WORD biPlanes;       // specifies the number of color planes, must be 1
+ 46       |     WORD biBitCount;     // specifies the number of bits per pixel
+ 47       |     DWORD biCompression; // specifies the type of compression
+ 48       |     DWORD biSizeImage;   // size of image in bytes
+ 49       |     uint32_t biXPelsPerMeter; // number of pixels per meter in x axis
+ 50       |     uint32_t biYPelsPerMeter; // number of pixels per meter in y axis
+ 51       |     DWORD biClrUsed;          // number of colors used by the bitmap
+ 52       |     DWORD biClrImportant;     // number of colors that are important
+ 53       | } BITMAPINFOHEADER;
+ 54       | 
+ 55       | #pragma pack(pop)
+ 56       | #pragma clang optimize on
+ 57       | uint16_t rgb_clamp(int x) {
+ 58       | 
+ 59       |     // // Clamp the RGB values to 0-255 range
+ 60       |     uint16_t r = (x < 0) ? 0 : (x > 255) ? 255 : (uint16_t)x;
+ 61       | 
+ 62       |     return r;
+ 63       | }
+ 64       | #pragma clang optimize on
+ 65       | BYTE y_clamp(uint8_t x) {
+ 66       |     // // Clamp the RGB values to 0-255 range
+ 67       |     WORD r = (x < 16) ? 16 : (x > 255) ? 235 : (WORD)x;
+ 68       | 
+ 69       |     return r;
+ 70       | }
+ 71       | #pragma clang optimize on
+ 72       | BYTE c_clamp(uint8_t x) {
+ 73       |     // // Clamp the RGB values to 0-255 range
+ 74       |     WORD r = (x < 16) ? 16 : (x > 255) ? 240 : x;
+ 75       | 
+ 76       |     return r;
+ 77       | }
+ 78       | #pragma clang optimize on
+ 79       | void rgbToCmyk(BYTE redtl, BYTE greentl, BYTE bluetl, BYTE redtr, BYTE greentr,
+ 80       |                BYTE bluetr, BYTE redbl, BYTE greenbl, BYTE bluebl, BYTE redbr,
+ 81       |                BYTE greenbr, BYTE bluebr, unsigned char *Ytl,
+ 82       |                unsigned char *Ytr, unsigned char *Ybl, unsigned char *Ybr,
+ 83       |                unsigned char *CB, unsigned char *CR) {
+ 84       | 
+ 85       |     // YCC_pixel *YCC = malloc(sizeof(YCC_pixel));
+ 86       | 
+ 87       |     // int R = red; /// 255.0;
+ 88       |     // int G = green; /// 255.0;
+ 89       |     // int B = blue; /// 255.0;
+ 90       |     int Rtl = (int)redtl;
+ 91       |     int Gtl = (int)greentl;
+ 92       |     int Btl = (int)bluetl;
+ 93       |     int Rtr = (int)redtr;
+ 94       |     int Gtr = (int)greentr;
+ 95       |     int Btr = (int)bluetr;
+ 96       |     int Rbl = (int)redbl;
+ 97       |     int Gbl = (int)greenbl;
+ 98       |     int Bbl = (int)bluebl;
+ 99       |     int Rbr = (int)redbr;
+100       |     int Gbr = (int)greenbr;
+101       |     int Bbr = (int)bluebr;
+102       | 
+103       |     int y_tl = (16 << K) + (66 * Rtl) + (129 * Gtl) + (25 * Btl);
+104       |     int y_tr = (16 << K) + (66 * Rtr) + (129 * Gtr) + (25 * Btr);
+105       |     int y_bl = ((16 << K) + (66 * Rbl) + (129 * Gbl) + (25 * Bbl));
+106       |     int y_br = ((16 << K) + (66 * Rbr) + (129 * Gbr) + (25 * Bbr));
+107       | 
+108       |     int cb_tl = (128 << K) - (38 * Rtl) - (74 * Gtl) + (112 * Btl);
+109       |     int cr_tl = (128 << K) + (112 * Rtl) - (94 * Gtl) - (18 * Btl);
+110       | 
+111       |     int cb_tr = (128 << K) - (38 * Rtr) - (74 * Gtr) + (112 * Btr);
+112       |     int cr_tr = (128 << K) + (112 * Rtr) - (94 * Gtr) - (18 * Btr);
+113       | 
+114       |     int cb_bl = (128 << K) - (38 * Rbl) - (74 * Gbl) + (112 * Bbl);
+115       |     int cr_bl = (128 << K) + (112 * Rbl) - (94 * Gbl) - (18 * Bbl);
+116       | 
+117       |     int cb_br = (128 << K) - (38 * Rbr) - (74 * Gbr) + (112 * Bbr);
+118       |     int cr_br = (128 << K) + (112 * Rbr) - (94 * Gbr) - (18 * Bbr);
+119       | 
+120       |     // R =  (DWORD)(16.0 + 0.257 * (DWORD) R + 0.504 * (DWORD) G + 0.098 *
+121       |     // (DWORD) B); G =  (DWORD)(128 - 0.148 * (DWORD) R - 0.291 * (DWORD) G +
+122       |     // 0.439 * (DWORD) B); B =  (DWORD)(128 + 0.439 * (DWORD) R - 0.368 *
+123       |     // (DWORD) G - 0.071 * (DWORD) B);
+124       | 
+125       |     // Calculate Average
+126       |     int cba = (int)((cb_tl + cb_tr + cb_bl + cb_br) >> 2);
+127       |     int cra = (int)((cr_tl + cr_tr + cr_bl + cr_br) >> 2);
+128       | 
+129       |     *Ytl = (uint8_t)((y_tl + (1 << (K - 1))) >> K);
+130       |     *Ytr = (uint8_t)((y_tr + (1 << (K - 1))) >> K);
+131       |     *Ybl = (uint8_t)((y_bl + (1 << (K - 1))) >> K);
+132       |     *Ybr = (uint8_t)((y_br + (1 << (K - 1))) >> K);
+133       | 
+134       |     *CB = (uint8_t)((cba + (1 << (K - 1))) >> K);
+135       |     *CR = (uint8_t)((cra + (1 << (K - 1))) >> K);
+136       | 
+137       |     // // // Clamp the values to xxx-255 range
+138       |     // BYTE Rb = (R < 16) ? 16 : (R > 255) ? 235 : (BYTE)R;
+139       |     // BYTE Gb = (G < 16) ? 16 : (B > 255) ? 240 : (BYTE)B;
+140       |     // BYTE Bb = (B < 16) ? 16 : (G > 255) ? 240 : (BYTE)G;
+141       | 
+142       |     // Y = &Rb;
+143       |     // CB = &Gb;
+144       |     // CR = &Bb;
+145       | 
+146       |     // *Y = Rb;
+147       |     // *CB = Gb;
+148       |     // *CR = Bb;
+149       |     // return YCC
+150       | }
+151       | 
+152       | #pragma clang optimize on
+153       | void YCbCrTorgb(unsigned char Ytl, unsigned char Ytr, unsigned char Ybl,
+154       |                 unsigned char Ybr, unsigned char CB, unsigned char CR,
+155       |                 unsigned char *red, unsigned char *green, unsigned char *blue,
+156       |                 unsigned char *red1, unsigned char *green1,
+157       |                 unsigned char *blue1, unsigned char *red2,
+158       |                 unsigned char *green2, unsigned char *blue2,
+159       |                 unsigned char *red3, unsigned char *green3,
+160       |                 unsigned char *blue3) {
+161       | 
+162       |     // float Yf = Y; /// 255.0;
+163       |     // float CBf = CB; /// 255.0;
+164       |     // float CRf = CR; /// 255.0;
+165       |     WORD Yf = (WORD)Ytl;
+166       |     WORD CBf = (WORD)CB;
+167       |     WORD CRf = (WORD)CR;
+168       | 
+169       |     // Convert YCbCr to RGB
+170       | 
+171 I     |     int r = rgb_clamp((74 * (int)(Yf - 16)) + (102 * (int)(CRf - 128)));
+172 I     |     int g = rgb_clamp((74 * (int)(Yf - 16)) - (52 * (int)(CRf - 128))) -
+173       |             (25 * (int)(CBf - 128));
+174 I     |     int b = rgb_clamp((74 * (int)(Yf - 16)) + (129 * (int)(CBf - 128)));
+175       | 
+176       |     Yf = (WORD)Ytr;
+177 I     |     int r1 = rgb_clamp((74 * (int)(Yf - 16)) + (102 * (int)(CRf - 128)));
+178 I     |     int g1 = rgb_clamp((74 * (int)(Yf - 16)) - (52 * (int)(CRf - 128)) -
+179       |                        (25 * (int)(CBf - 128)));
+180 I     |     int b1 = rgb_clamp((74 * (int)(Yf - 16)) + (129 * (int)(CBf - 128)));
+181       | 
+182       |     Yf = (WORD)Ybl;
+183 I     |     int r2 = rgb_clamp((74 * (int)(Yf - 16)) + (102 * (int)(CRf - 128)));
+184 I     |     int g2 = rgb_clamp((74 * (int)(Yf - 16)) - (52 * (int)(CRf - 128)) -
+185       |                        (25 * (int)(CBf - 128)));
+186 I     |     int b2 = rgb_clamp((74 * (int)(Yf - 16)) + (129 * (int)(CBf - 128)));
+187       | 
+188       |     Yf = (WORD)Ybr;
+189 I     |     int r3 = rgb_clamp((74 * (int)(Yf - 16)) + (102 * (int)(CRf - 128)));
+190 I     |     int g3 = rgb_clamp((74 * (int)(Yf - 16)) - (52 * (int)(CRf - 128)) -
+191       |                        (25 * (int)(CBf - 128)));
+192 I     |     int b3 = rgb_clamp((74 * (int)(Yf - 16)) + (129 * (int)(CBf - 128)));
+193       | 
+194       |     *red = (BYTE)((r + (1 << (K - 1))) >> K);
+195       |     *green = (BYTE)((g + (1 << (K - 1))) >> K);
+196       |     *blue = (BYTE)((b + (1 << (K - 1))) >> K);
+197       | 
+198       |     *red1 = (BYTE)(((r1 + (1 << (K - 1))) >> K));
+199       |     *green1 = (BYTE)((g1 + (1 << (K - 1))) >> K);
+200       |     *blue1 = (BYTE)((b1 + (1 << (K - 1))) >> K);
+201       | 
+202       |     *red2 = (BYTE)((r2 + (1 << (K - 1))) >> K);
+203       |     *green2 = (BYTE)((g2 + (1 << (K - 1))) >> K);
+204       |     *blue2 = (BYTE)((b2 + (1 << (K - 1))) >> K);
+205       | 
+206       |     *red3 = (BYTE)((r3 + (1 << (K - 1))) >> K);
+207       |     *green3 = (BYTE)((g3 + (1 << (K - 1))) >> K);
+208       |     *blue3 = (BYTE)((b3 + (1 << (K - 1))) >> K);
+209       |     // *red = red1
+210       |     // *green = green1;
+211       |     // *blue = blue1;
+212       | 
+213       |     // *red = std::clamp(Yf, 0, UINT8_MAX);
+214       |     // *green = std::clamp(CBf, 0, UINT8_MAX);
+215       |     // *blue = std::clamp(CRf, 0, UINT8_MAX);
+216       |     // printf("%d", r);
+217       |     // printf("%d", g);
+218       |     // printf("%d", b);
+219       | 
+220       |     // *red = r;
+221       |     // *green = g;
+222       |     // *blue = b;
+223       | 
+224       |     // *red = r;
+225       |     // *green = g;
+226       |     // *blue = b;
+227       | }
+228       | #pragma clang optimize on
+229       | unsigned char *LoadBitmapFile(FILE *filePtr, BITMAPINFOHEADER *bitmapInfoHeader,
+230       |                               BITMAPFILEHEADER *bitmapFileHeader) {
+231       |     // FILE *filePtr;  //our file pointer
+232       |     // BITMAPFILEHEADER bitmapFileHeader;  //our bitmap file header
+233       |     unsigned char *bitmapImage; // store image data
+234       |     // unsigned char *bitmapImageOut;
+235       | 
+236       | 
+237       |     // //open file in read binary mode
+238       |     // filePtr = fopen(filename,"rb");
+239       |     // if (filePtr == NULL)
+240       |     //     return NULL;
+241       | 
+242       |     // read the bitmap file header
+243       |     fread(bitmapFileHeader, sizeof(BITMAPFILEHEADER), 1, filePtr);
+244       | 
+245       |     // verify that this is a .BMP file by checking bitmap id
+246       |     if (bitmapFileHeader->bfType != 0x4D42) {
+247       |         fclose(filePtr);
+248       |         return NULL;
+249       |     }
+250       | 
+251       |     // read the bitmap info header
+252       |     fread(bitmapInfoHeader, sizeof(BITMAPINFOHEADER), 1, filePtr);
+253       | 
+254       |     // Check if the BMP uses 24-bit RGB format
+255       |     if (bitmapInfoHeader->biBitCount != 24) {
+256       |         printf("Error: Only 24-bit RGB BMP images are supported.\n");
+257       |         fclose(filePtr);
+258       |         // fclose(output_file);
+259       |         return NULL;
+260       |     }
+261       | 
+262       |     // move file pointer to the beginning of bitmap data
+263       |     fseek(filePtr, bitmapFileHeader->bfOffBits, SEEK_SET);
+264       |     // fseek(filePtr, bitmapFileHeaderOut->bfOffBits, SEEK_SET);
+265       | 
+266       |     // allocate enough memory for the bitmap image data
+267       |     //  printf("size: %zu\n",bitmapInfoHeader->biSizeImage);
+268       |     bitmapImage = (unsigned char *)malloc(bitmapInfoHeader->biSizeImage);
+269       |     // printf("size: %zu\n",sizeof(bitmapImage));
+270       |     // bitmapImageOut = (unsigned char*)malloc(bitmapInfoHeader->biSizeImage);
+271       |     // verify memory allocation
+272       |     if (!bitmapImage) {
+273       |         free(bitmapImage);
+274       |         fclose(filePtr);
+275       |         return NULL;
+276       |     }
+277       | 
+278       |     // read in the bitmap image data
+279       |     fread(bitmapImage, bitmapInfoHeader->biSizeImage, 1, filePtr);
+280       | 
+281       |     // make sure bitmap image data was read
+282       |     if (bitmapImage == NULL) {
+283       |         fclose(filePtr);
+284       |         return NULL;
+285       |     }
+286       | 
+287       |     return bitmapImage;
+288       | }
+289       | #pragma clang optimize on
+290       | int main() {
+291       | 
+292       |     BITMAPINFOHEADER bitmapInfoHeader;
+293       |     BITMAPFILEHEADER bitmapFileHeader;
+294       |     unsigned char *bitmapData;
+295       |     FILE *inputFile, *outputFile;
+296       |     // BitmapFileHeader fileHeader;
+297       |     // BitmapInfoHeader infoHeader;
+298       |     unsigned char *imageData;
+299       |     unsigned char *outputData;
+300       |     DWORD newImageSize;
+301       |     uint32_t index, index2, outputIndex, outputIndex2, i, j;
+302       | 
+303       |     // Open input file
+304       |     inputFile = fopen("../input.bmp", "rb");
+305       |     if (inputFile == NULL) {
+306       |         printf("Failed to open input file.\n");
+307       | 
+308       |         return 1;
+309       |     }
+310       | 
+311       |     bitmapData =
+312       |         LoadBitmapFile(inputFile, &bitmapInfoHeader, &bitmapFileHeader);
+313       | 
+314       |     uint32_t width = bitmapInfoHeader.biWidth;
+315       |     uint32_t height = bitmapInfoHeader.biHeight;
+316       | 
+317       |     newImageSize = (width * height * 6); // 6pix
+318       |     // printf("size: %d\n",newImageSize);
+319       | 
+320       |     // outputData = (unsigned char*)malloc(bitmapInfoHeader.biSizeImage);
+321       |     outputData = (unsigned char *)malloc(newImageSize);
+322       |     imageData = (unsigned char *)malloc(bitmapInfoHeader.biSizeImage);
+323       | 
+324       |     FILE *ppm_file = fopen("../output_YCC_int.ppm", "wb");
+325       |     if (!ppm_file) {
+326       |         printf("Error: Could not create ppm");
+327       |         fclose(ppm_file);
+328       |         return 1;
+329       |     }
+330       |     // const BYTE *string_write = ("P6\n%d %d\n%d\n", width, height, 255);
+331       |     // Write the PPM header
+332       |     fseek(ppm_file, 0, SEEK_SET);
+333       |     fprintf(ppm_file, "P6\n%u %u\n%d\n", width, height, 255);
+334       | //vectorize_width(scalable) interleave(enable) #pragma clang loop interleave(enable)
+335       |     //#pragma omp parallel for simd
+336       |     //#pragma clang loop vectorize(enable) vectorize_width(fixed)
+337       |     #pragma clang loop interleave(enable) vectorize_width(fixed)
+338       |     for (i = 0; i < bitmapInfoHeader.biHeight - 2; i += 2) {
+339       |         #pragma clang loop interleave(enable) vectorize_width(fixed)
+340  V2,1 |         for (j = 0; j < bitmapInfoHeader.biWidth - 2; j += 2) {
+341       |             index = (i * bitmapInfoHeader.biWidth + j) * (3); // 3x2 pixels
+342       |                                                               // worth
+343       |             index2 = ((i + 1) * bitmapInfoHeader.biWidth + j) *
+344       |                      (3); // 3x2 pixels worth
+345       |             outputIndex = (i * bitmapInfoHeader.biWidth + j) * 6; // 2 *
+346       |                                                                   // index;//
+347       |             // outputIndex2 = (i * bitmapInfoHeader.biWidth + j) * 6;
+348       | 
+349       |             // printf("lo;\n");
+350       |             #pragma clang optimize on
+351       |             unsigned char redtl = bitmapData[index];
+352       |             unsigned char greentl = bitmapData[index + 1];
+353       |             unsigned char bluetl = bitmapData[index + 2];
+354       | 
+355       |             unsigned char redtr = bitmapData[index + 3];
+356       |             unsigned char greentr = bitmapData[index + 4];
+357       |             unsigned char bluetr = bitmapData[index + 5];
+358       | 
+359       |             unsigned char redbl = bitmapData[index2];
+360       |             unsigned char greenbl = bitmapData[index2 + 1];
+361       |             unsigned char bluebl = bitmapData[index2 + 2];
+362       | 
+363       |             unsigned char redbr = bitmapData[index2 + 3];
+364       |             unsigned char greenbr = bitmapData[index2 + 4];
+365       |             unsigned char bluebr = bitmapData[index2 + 5];
+366       | 
+367       |             #pragma clang optimize on
+368 I     |             rgbToCmyk(
+369       |                 redtl, greentl, bluetl, redtr, greentr, bluetr, redbl, greenbl,
+370       |                 bluebl, redbr, greenbr, bluebr, &outputData[outputIndex],
+371       |                 &outputData[outputIndex + 1], &outputData[outputIndex + 2],
+372       |                 &outputData[outputIndex + 3], &outputData[outputIndex + 4],
+373       |                 &outputData[outputIndex + 5]);
+374       |             // printf("3;\n");
+375       | 
+376       |             imageData[index] = outputData[outputIndex];
+377       |             imageData[index + 1] = outputData[outputIndex + 4];
+378       |             imageData[index + 2] = outputData[outputIndex + 5];
+379       | 
+380       |             imageData[index + 3] = outputData[outputIndex + 1];
+381       |             imageData[index + 4] = outputData[outputIndex + 4];
+382       |             imageData[index + 5] = outputData[outputIndex + 5];
+383       | 
+384       |             imageData[index2] = outputData[outputIndex + 2];
+385       |             imageData[index2 + 1] = outputData[outputIndex + 4];
+386       |             imageData[index2 + 2] = outputData[outputIndex + 5];
+387       | 
+388       |             imageData[index2 + 3] = outputData[outputIndex + 3];
+389       |             imageData[index2 + 4] = outputData[outputIndex + 4];
+390       |             imageData[index2 + 5] = outputData[outputIndex + 5];
+391       | 
+392       | 
+393       |         }
+394       |     }
+395       |     printf("ok");
+396       |     fwrite(imageData, bitmapInfoHeader.biSizeImage, 1, ppm_file);
+397       | 
+398       | 
+399       |     // Cleanup
+400       |     fclose(ppm_file);
+401       | 
+402       | 
+403       |     printf("Conversion to YCBCR complete.\n");
+404       | 
+405       |     /* ------------------------------------------------------------------ */
+406       |     FILE *inputFile2;
+407       |     unsigned char *new_output_data;
+408       | 
+409       |     // Open input file
+410       |     inputFile2 = fopen("../output_YCC.ppm", "rb");
+411       |     if (inputFile2 == NULL) {
+412       |         printf("Failed to open input file.\n");
+413       |         return 1;
+414       |     }
+415       | 
+416       |     new_output_data = (unsigned char *)malloc(height * width * 3);
+417       | 
+418       |     char magic_number[3];
+419       |     fscanf(inputFile2, "%2s", magic_number);
+420       |     // fscanf(inputFile, "%s",magic_number);
+421       |     printf("mm1: %2s \n", magic_number);
+422       |     // printf("mm2: %s\n",(char) magic_number[1]);
+423       |     if (magic_number[0] != 'P' || magic_number[1] != '6') {
+424       |         printf("Error: magicnum not a valid PPM file.\n");
+425       |         fclose(inputFile2);
+426       |         return 1;
+427       |     }
+428       | 
+429       |     int max_colour;
+430       |     int wid;
+431       |     int ht;
+432       |     fscanf(inputFile2, "%d %d %d", &wid, &ht, &max_colour);
+433       |     fgetc(inputFile2); // Consume newline character
+434       | 
+435       |     printf("color: %d \n", max_colour);
+436       | 
+437       |     printf("biHeight: %d \n", ht);
+438       |     printf("biWidth: %d \n", wid);
+439       |     // Check if the PPM uses 8-bit per color channel
+440       |     if ((int)max_colour != 255) {
+441       |         printf("Error: Only PPM files with 8-bit color depth are supported.\n");
+442       |         fclose(inputFile2);
+443       |         return 1;
+444       |     }
+445       |     printf("currpos: %d \n", (int)ftell(inputFile2));
+446       |     int header_size = ftell(inputFile2);
+447       |     fseek(inputFile2, ftell(inputFile2), SEEK_SET);
+448       |     fread(new_output_data, 1, width * height * 3, inputFile2);
+449       | 
+450       |     outputFile = fopen("../RGB_Output_int.bmp", "wb");
+451       |     if (outputFile == NULL) {
+452       |         printf("Failed to create output file.\n");
+453       |         return 1;
+454       |     }
+455       | 
+456       |     // Perform YCC to RGB conversion
+457       | //vectorize_width(scalable) interleave(enable)
+458       |     //#pragma omp parallel for simd
+459       |     // #pragma clang loop vectorize(enable) vectorize_width(fixed)
+460       |     #pragma clang loop interleave(enable) vectorize_width(fixed)
+461       |     for (i = 0; i < height - 2; i += 2) {
+462       |         #pragma clang loop interleave(enable) vectorize_width(fixed)
+463       |         for (j = 0; j + 2 < width; j += 2) {
+464       |             index = (i * width + j) * 6;
+465       |             outputIndex = (i * width + j) * 3;
+466       |             outputIndex2 = ((i + 1) * width + j) * 3;
+467       |             #pragma clang optimize on
+468       |             BYTE Ytl = imageData[outputIndex];
+469       |             BYTE Ytr = imageData[outputIndex + 3];
+470       |             BYTE Ybl = imageData[outputIndex2];
+471       |             BYTE Ybr = imageData[outputIndex + 3];
+472       |             BYTE CB = imageData[outputIndex + 1];
+473       |             BYTE CR = imageData[outputIndex + 2];
+474       | 
+475       |             // unsigned char Y =  fgetc(inputFile);
+476       |             // unsigned char CR = fgetc(inputFile);
+477       |             // unsigned char CB = fgetc(inputFile);
+478       |             #pragma clang optimize on
+479       |             YCbCrTorgb(Ytl, Ytr, Ybl, Ybr, CB, CR,
+480       |                        &new_output_data[outputIndex],
+481       |                        &new_output_data[outputIndex + 1],
+482       |                        &new_output_data[outputIndex + 2],
+483       |                        &new_output_data[outputIndex + 3],
+484       |                        &new_output_data[outputIndex + 4],
+485       |                        &new_output_data[outputIndex + 5],
+486       |                        &new_output_data[outputIndex2],
+487       |                        &new_output_data[outputIndex2 + 1],
+488       |                        &new_output_data[outputIndex2 + 2],
+489       |                        &new_output_data[outputIndex2 + 3],
+490       |                        &new_output_data[outputIndex2 + 4],
+491       |                        &new_output_data[outputIndex2 + 5]);
+492       |         }
+493       |     }
+494       | 
+495       |     // Write file and info headers
+496       |     fseek(outputFile, 0, SEEK_SET);
+497       |     fwrite(&bitmapFileHeader, sizeof(BITMAPFILEHEADER), 1, outputFile);
+498       |     fwrite(&bitmapInfoHeader, sizeof(BITMAPINFOHEADER), 1, outputFile);
+499       | 
+500       |     // Write output image data
+501       |     fseek(outputFile, bitmapFileHeader.bfOffBits, SEEK_SET);
+502       |     fwrite(new_output_data, width * height * 3, 1, outputFile);
+503       | 
+504       |     // Cleanup
+505       |     fclose(inputFile);
+506       |     fclose(inputFile2);
+507       |     fclose(outputFile);
+508       |     free(bitmapData);
+509       |     free(outputData);
+510       |     free(new_output_data);
+511       |     free(imageData);
+512       | 
+513       |     printf("Conversion to RGB complete.\n");
+514       | 
+515       |     return 0;
+516       | }

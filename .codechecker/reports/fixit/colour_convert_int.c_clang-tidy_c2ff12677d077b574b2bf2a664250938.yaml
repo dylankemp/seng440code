@@ -1,0 +1,16 @@
+---
+MainSourceFile:  '/home/birdy/seng440code/colour_convert_int.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-unused-variable
+    DiagnosticMessage:
+      Message:         'unused variable ''header_size'''
+      FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+      FileOffset:      18999
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+          FileOffset:      18999
+          Length:          11
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+...

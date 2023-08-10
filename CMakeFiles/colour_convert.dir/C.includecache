@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/birdy/seng440code/colour_convert.c
+stdlib.h
+-
+stdio.h
+-
+math.h
+-
+stdint.h
+-
+time.h
+-
+

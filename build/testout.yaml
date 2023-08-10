@@ -1,0 +1,330 @@
+---
+MainSourceFile:  '/home/birdy/seng440code/build/../colour_convert_int.c'
+Diagnostics:
+  - DiagnosticName:  clang-analyzer-core.uninitialized.Assign
+    DiagnosticMessage:
+      Message:         Assigned value is garbage or undefined
+      FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+      FileOffset:      10534
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+          FileOffset:      10551
+          Length:          24
+    Notes:
+      - Message:         'Assuming ''inputFile'' is not equal to NULL'
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      10344
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      10344
+            Length:          17
+      - Message:         Taking false branch
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      10340
+        Replacements:    []
+      - Message:         'Calling ''LoadBitmapFile'''
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      10464
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      10464
+            Length:          63
+      - Message:         'Assuming field ''bfType'' is not equal to 19778'
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      8552
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      8552
+            Length:          34
+      - Message:         Taking true branch
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      8548
+        Replacements:    []
+      - Message:         'Returning without writing to ''bitmapInfoHeader->biWidth'''
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      8623
+        Replacements:    []
+      - Message:         'Returning from ''LoadBitmapFile'''
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      10464
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      10464
+            Length:          63
+      - Message:         Assigned value is garbage or undefined
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      10534
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      10551
+            Length:          24
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  clang-analyzer-unix.Malloc
+    DiagnosticMessage:
+      Message:         'Potential leak of memory pointed to by ''imageData'''
+      FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+      FileOffset:      11237
+      Replacements:    []
+    Notes:
+      - Message:         'Assuming ''inputFile'' is not equal to NULL'
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      10344
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      10344
+            Length:          17
+      - Message:         Taking false branch
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      10340
+        Replacements:    []
+      - Message:         Memory is allocated
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      10882
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      10882
+            Length:          36
+      - Message:         'Assuming ''ppm_file'' is null'
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      11216
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      11216
+            Length:          9
+      - Message:         Taking true branch
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      11212
+        Replacements:    []
+      - Message:         'Potential leak of memory pointed to by ''imageData'''
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      11237
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  clang-analyzer-unix.Malloc
+    DiagnosticMessage:
+      Message:         'Potential leak of memory pointed to by ''outputData'''
+      FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+      FileOffset:      11237
+      Replacements:    []
+    Notes:
+      - Message:         'Assuming ''inputFile'' is not equal to NULL'
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      10344
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      10344
+            Length:          17
+      - Message:         Taking false branch
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      10340
+        Replacements:    []
+      - Message:         Memory is allocated
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      10827
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      10827
+            Length:          20
+      - Message:         'Assuming ''ppm_file'' is null'
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      11216
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      11216
+            Length:          9
+      - Message:         Taking true branch
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      11212
+        Replacements:    []
+      - Message:         'Potential leak of memory pointed to by ''outputData'''
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      11237
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling
+    DiagnosticMessage:
+      Message:         'Call to function ''fscanf'' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as ''fscanf_s'' in case of C11'
+      FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+      FileOffset:      18267
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+          FileOffset:      18267
+          Length:          6
+    Notes:
+      - Message:         'Call to function ''fscanf'' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as ''fscanf_s'' in case of C11'
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      18267
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      18267
+            Length:          6
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  clang-analyzer-unix.Malloc
+    DiagnosticMessage:
+      Message:         'Potential leak of memory pointed to by ''new_output_data'''
+      FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+      FileOffset:      18513
+      Replacements:    []
+    Notes:
+      - Message:         'Assuming ''inputFile'' is not equal to NULL'
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      10344
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      10344
+            Length:          17
+      - Message:         Taking false branch
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      10340
+        Replacements:    []
+      - Message:         'Assuming ''ppm_file'' is non-null'
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      11216
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      11216
+            Length:          9
+      - Message:         Taking false branch
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      11212
+        Replacements:    []
+      - Message:         Assuming the condition is false
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      11771
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      11771
+            Length:          33
+      - Message:         Loop condition is false. Execution continues on line 423
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      11759
+        Replacements:    []
+      - Message:         'Assuming ''inputFile2'' is not equal to NULL'
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      16786
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      16786
+            Length:          18
+      - Message:         Taking false branch
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      16782
+        Replacements:    []
+      - Message:         Memory is allocated
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      18208
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      18208
+            Length:          26
+      - Message:         Assuming the condition is true
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      18453
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      18453
+            Length:          22
+      - Message:         'Left side of ''||'' is true'
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      18476
+        Replacements:    []
+      - Message:         'Potential leak of memory pointed to by ''new_output_data'''
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      18513
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling
+    DiagnosticMessage:
+      Message:         'Call to function ''fscanf'' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as ''fscanf_s'' in case of C11'
+      FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+      FileOffset:      18666
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+          FileOffset:      18666
+          Length:          6
+    Notes:
+      - Message:         'Call to function ''fscanf'' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as ''fscanf_s'' in case of C11'
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      18666
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      18666
+            Length:          6
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  clang-analyzer-deadcode.DeadStores
+    DiagnosticMessage:
+      Message:         'Value stored to ''header_size'' during its initialization is never read'
+      FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+      FileOffset:      19168
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+          FileOffset:      19168
+          Length:          11
+        - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+          FileOffset:      19182
+          Length:          17
+    Notes:
+      - Message:         'Value stored to ''header_size'' during its initialization is never read'
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      19168
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      19168
+            Length:          11
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      19182
+            Length:          17
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+  - DiagnosticName:  clang-analyzer-deadcode.DeadStores
+    DiagnosticMessage:
+      Message:         'Value stored to ''index'' is never read'
+      FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+      FileOffset:      19671
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+          FileOffset:      19679
+          Length:          19
+    Notes:
+      - Message:         'Value stored to ''index'' is never read'
+        FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+        FileOffset:      19671
+        Replacements:    []
+        Ranges:
+          - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+            FileOffset:      19679
+            Length:          19
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
+...
