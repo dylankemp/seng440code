@@ -335,8 +335,7 @@ int main() {
                                                               // worth
             index2 = ((i + 1) * bitmapInfoHeader.biWidth + j) *
                      (3); // 3x2 pixels worth
-            outputIndex = (i * bitmapInfoHeader.biWidth + j) * 6; // 2 *
-                                                                  // index;//
+            outputIndex = (i * bitmapInfoHeader.biWidth + j) * 6; // 
 
             unsigned char redtl = bitmapData[index];
             unsigned char greentl = bitmapData[index + 1];

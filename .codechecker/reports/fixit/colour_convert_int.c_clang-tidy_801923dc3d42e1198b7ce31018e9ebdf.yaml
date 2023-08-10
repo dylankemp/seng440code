@@ -5,7 +5,7 @@ Diagnostics:
     DiagnosticMessage:
       Message:         'result of integer division used in a floating point context; possible loss of precision'
       FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
-      FileOffset:      17187
+      FileOffset:      17106
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'

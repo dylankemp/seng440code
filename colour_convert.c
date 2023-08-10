@@ -353,7 +353,7 @@ int main() {
     clock_t start = clock();
 
     // Open input file
-    inputFile = fopen("./input1.bmp", "rb");
+    inputFile = fopen("../input1.bmp", "rb");
     if (inputFile == NULL) {
         printf("Failed to open input file.\n");
 
