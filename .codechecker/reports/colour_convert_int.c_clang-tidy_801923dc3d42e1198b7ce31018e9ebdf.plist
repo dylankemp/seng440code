@@ -6,21 +6,21 @@
 	<array>
 		<dict>
 			<key>category</key>
-			<string>clang</string>
+			<string>bugprone</string>
 			<key>check_name</key>
-			<string>clang-diagnostic-unused-value</string>
+			<string>bugprone-integer-division</string>
 			<key>description</key>
-			<string>expression result unused</string>
+			<string>result of integer division used in a floating point context; possible loss of precision</string>
 			<key>issue_hash_content_of_line_in_context</key>
-			<string>046a8886a79164ab16c0125f8bf49982</string>
+			<string>e9b076aee811170187dfff85e5812dd4</string>
 			<key>location</key>
 			<dict>
 				<key>col</key>
-				<integer>5</integer>
+				<integer>22</integer>
 				<key>file</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>518</integer>
+				<integer>495</integer>
 			</dict>
 			<key>path</key>
 			<array>
@@ -32,53 +32,14 @@
 					<key>location</key>
 					<dict>
 						<key>col</key>
-						<integer>5</integer>
+						<integer>22</integer>
 						<key>file</key>
 						<integer>0</integer>
 						<key>line</key>
-						<integer>518</integer>
+						<integer>495</integer>
 					</dict>
 					<key>message</key>
-					<string>expression result unused</string>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>category</key>
-			<string>clang</string>
-			<key>check_name</key>
-			<string>clang-diagnostic-unused-variable</string>
-			<key>description</key>
-			<string>unused variable 'header_size'</string>
-			<key>issue_hash_content_of_line_in_context</key>
-			<string>4fb3c11657937e464eb1f9ff869b346f</string>
-			<key>location</key>
-			<dict>
-				<key>col</key>
-				<integer>9</integer>
-				<key>file</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>528</integer>
-			</dict>
-			<key>path</key>
-			<array>
-				<dict>
-					<key>depth</key>
-					<integer>0</integer>
-					<key>kind</key>
-					<string>event</string>
-					<key>location</key>
-					<dict>
-						<key>col</key>
-						<integer>9</integer>
-						<key>file</key>
-						<integer>0</integer>
-						<key>line</key>
-						<integer>528</integer>
-					</dict>
-					<key>message</key>
-					<string>unused variable 'header_size'</string>
+					<string>result of integer division used in a floating point context; possible loss of precision</string>
 				</dict>
 			</array>
 		</dict>

@@ -1,28 +1,12 @@
 ---
 MainSourceFile:  '/home/birdy/seng440code/colour_convert_int.c'
 Diagnostics:
-  - DiagnosticName:  clang-diagnostic-unused-value
+  - DiagnosticName:  bugprone-integer-division
     DiagnosticMessage:
-      Message:         expression result unused
+      Message:         'result of integer division used in a floating point context; possible loss of precision'
       FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
-      FileOffset:      18691
+      FileOffset:      17187
       Replacements:    []
-      Ranges:
-        - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
-          FileOffset:      18706
-          Length:          19
-    Level:           Warning
-    BuildDirectory:  '/home/birdy/seng440code/build'
-  - DiagnosticName:  clang-diagnostic-unused-variable
-    DiagnosticMessage:
-      Message:         'unused variable ''header_size'''
-      FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
-      FileOffset:      19089
-      Replacements:    []
-      Ranges:
-        - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
-          FileOffset:      19089
-          Length:          11
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'
 ...

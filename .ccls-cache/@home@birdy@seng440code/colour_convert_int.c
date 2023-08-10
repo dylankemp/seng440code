@@ -5,6 +5,7 @@
 // #include <math.h>
 #include <stdint.h>
 #include <sys/types.h>
+#include <time.h>
 
 typedef uint32_t DWORD; // DWORD = unsigned 32 bit value
 typedef uint16_t WORD;  // WORD = unsigned 16 bit value
@@ -299,6 +300,8 @@ int main() {
     DWORD newImageSize;
     uint32_t index, index2, outputIndex, outputIndex2, i, j;
 
+    clock_t start = clock();
+
     // Open input file
     inputFile = fopen("../input.bmp", "rb");
     if (inputFile == NULL) {
@@ -307,23 +310,15 @@ int main() {
         return 1;
     }
 
-    bitmapData =
-        LoadBitmapFile(inputFile, &bitmapInfoHeader, &bitmapFileHeader);
+    bitmapData = LoadBitmapFile(inputFile, &bitmapInfoHeader, &bitmapFileHeader);
 
     uint32_t width = bitmapInfoHeader.biWidth;
     uint32_t height = bitmapInfoHeader.biHeight;
 
     newImageSize = (width * height * 6); // 6pix
-    // printf("size: %d\n",newImageSize);
 
-    // outputData = (unsigned char*)malloc(bitmapInfoHeader.biSizeImage);
     outputData = (unsigned char *)malloc(newImageSize);
     imageData = (unsigned char *)malloc(bitmapInfoHeader.biSizeImage);
-    // printf("biHeight: %d\n",height);
-    // printf("biWidth: %d\n",width);
-    // printf("size: %lu\n",&bitmapData);
-    // printf("size: %lu\n",sizeof(outputData));
-    // printf("size: %lu\n",bitmapInfoHeader.biSizeImage);
 
     FILE *ppm_file = fopen("../output_YCC_int.ppm", "wb");
     if (!ppm_file) {
@@ -331,14 +326,9 @@ int main() {
         fclose(ppm_file);
         return 1;
     }
-    // const BYTE *string_write = ("P6\n%d %d\n%d\n", width, height, 255);
     // Write the PPM header
     fseek(ppm_file, 0, SEEK_SET);
     fprintf(ppm_file, "P6\n%u %u\n%d\n", width, height, 255);
-    // fprintf(ppm_file, "P6\n%d %d\n%d\n", width, height, 255);
-    // fseek(outputFile, bitmapFileHeader.bfOffBits, SEEK_SET);
-    // Perform RGB to YCC conversion
-    // for (i = bitmapInfoHeader.biHeight -2; i >= 0 ; i -=2) {
     for (i = 0; i < bitmapInfoHeader.biHeight - 2; i += 2) {
         for (j = 0; j < bitmapInfoHeader.biWidth - 2; j += 2) {
             index = (i * bitmapInfoHeader.biWidth + j) * (3); // 3x2 pixels
@@ -347,9 +337,6 @@ int main() {
                      (3); // 3x2 pixels worth
             outputIndex = (i * bitmapInfoHeader.biWidth + j) * 6; // 2 *
                                                                   // index;//
-            // outputIndex2 = (i * bitmapInfoHeader.biWidth + j) * 6;
-
-            // printf("lo;\n");
 
             unsigned char redtl = bitmapData[index];
             unsigned char greentl = bitmapData[index + 1];
@@ -392,60 +379,13 @@ int main() {
             imageData[index2 + 4] = outputData[outputIndex + 4];
             imageData[index2 + 5] = outputData[outputIndex + 5];
 
-            // // // // Write the YCC pixel to the PPM file
-            // fwrite(&outputData[outputIndex], sizeof(BYTE), 1, ppm_file);
-            // //(outputData[outputIndex], ppm_file);
-            // fwrite(&outputData[outputIndex + 4], sizeof(BYTE), 1, ppm_file);
-            // fwrite(&outputData[outputIndex + 5], sizeof(BYTE), 1, ppm_file);
-
-            // fwrite(&outputData[outputIndex + 1], sizeof(BYTE), 1, ppm_file);
-            // fwrite(&outputData[outputIndex + 4], sizeof(BYTE), 1, ppm_file);
-            // fwrite(&outputData[outputIndex + 5], sizeof(BYTE), 1, ppm_file);
-
-            // fseek(ppm_file, 3*height, SEEK_CUR);
-
-            // fwrite(&outputData[outputIndex + 2], sizeof(BYTE), 1, ppm_file);
-            // fwrite(&outputData[outputIndex + 4], sizeof(BYTE), 1, ppm_file);
-            // fwrite(&outputData[outputIndex + 5], sizeof(BYTE), 1, ppm_file);
-
-            // fwrite(&outputData[outputIndex + 3], sizeof(BYTE), 1, ppm_file);
-            // fwrite(&outputData[outputIndex + 4], sizeof(BYTE), 1, ppm_file);
-            // fwrite(&outputData[outputIndex + 5], sizeof(BYTE), 1, ppm_file);
-
-            // fseek(ppm_file, -3*height, SEEK_CUR);
-            // //-sizeof(BYTE)*((i+1)*height); fseek(fInput, -sizeof(rgb_pixel)
-            // * width, SEEK_CUR);
-
-            // printf("ok");
         }
     }
     printf("ok");
     fwrite(imageData, bitmapInfoHeader.biSizeImage, 1, ppm_file);
 
-    // // RGBtoYCC(bitmapData, outputData, bitmapInfoHeader.biWidth,
-    // bitmapInfoHeader.biHeight);
-    // // Create output file
-    // outputFile = fopen("../output.bmp", "wb");
-    // if (outputFile == NULL) {
-    //     printf("Failed to create output file.\n");
-    //     return 1;
-    // }
-
-    // Write file and info headers
-    // fwrite(&bitmapFileHeader, sizeof(BITMAPFILEHEADER), 1, outputFile);
-    // fwrite(&bitmapInfoHeader, sizeof(BITMAPINFOHEADER), 1, outputFile);
-
-    // // Write output image data
-    // fseek(outputFile, bitmapFileHeader.bfOffBits, SEEK_SET);
-    // fwrite(outputData, bitmapInfoHeader.biSizeImage, 1, outputFile);
-
     // Cleanup
     fclose(ppm_file);
-    // fclose(inputFile);
-    // fclose(outputFile);
-    // free(bitmapData);
-    // free(outputData);
-
     printf("Conversion to YCBCR complete.\n");
 
     /* ------------------------------------------------------------------ */
@@ -453,56 +393,17 @@ int main() {
     unsigned char *new_output_data;
 
     // Open input file
-    inputFile2 = fopen("../output_YCC.ppm", "rb");
+    inputFile2 = fopen("../output_YCC_int.ppm", "rb");
     if (inputFile2 == NULL) {
         printf("Failed to open input file.\n");
         return 1;
     }
 
-    // inputFile2 = fopen("../input.bmp", "rb");
-    // if (inputFile == NULL) {
-    //     printf("Failed to open input file.\n");
-    //     return 1;
-    // }
-
-    // bitmapData =
-    // LoadBitmapFile(inputFile2,&bitmapInfoHeader,&bitmapFileHeader);
-
-    // width = bitmapInfoHeader.biWidth;
-    // height = bitmapInfoHeader.biHeight;
-    // free(bitmapData);
-    // bitmapData = (unsigned char*)malloc(sizeof(newImageSize));
-    // outputData = (unsigned char*)malloc(sizeof(newImageSize));
-
-    // bitmapData = (unsigned char*)malloc(newImageSize);
-    // outputData = (unsigned char*)malloc(newImageSize);
-    // outputData = (unsigned char*)malloc(height * width * 3);
-
-    // printf("biHeight: %d\n",height);
-    // printf("biWidth: %d\n",width);
-    // printf("size: %lu\n",bitmapInfoHeader.biSizeImage);
-    // char id[3] = {0, 0, 0};
-    // lon(unsigned long)((unsigned lon)g)(g vals[5];
-    // in(unsigned long)(t count = 0; )/* # of vals so far */
-    // char *buf = malloc(256);
-
-    // fgets(buf, 256, inputFile);
-    // id[0] = buf[0];
-    // id[1] = buf[1];
-    // count = sscanf(buf + 2, "%d %d %d",
-    // &vals[0], &vals[1], &vals[2]);
-    // printf("Got %d vals \n", count);
-    // printf("%4d %4d %4d \n", vals[0], vals[1], vals[2]);
-
-    // printf("color: %d\n",vals[2]);
-
-    // Read and validate the PPM header
 
     new_output_data = (unsigned char *)malloc(height * width * 3);
 
     char magic_number[3];
     fscanf(inputFile2, "%2s", magic_number);
-    // fscanf(inputFil(unsigned long)(e, "%s",magic_num)(unsigned long)(ber);
     printf("mm1: %2s \n", magic_number);
     // )printf("mm2: %s\n",(char) magic_number[1]);
     if (magic_number[0] != 'P' || magic_number[1] != '6') {
@@ -515,7 +416,6 @@ int main() {
     int wid;
     int ht;
     fscanf(inputFile2, "%d %d %d", &wid, &ht, &max_colour);
-    (unsigned long)(fgetc(inputFile2));
     printf("biHeight: %d \n", ht);
     printf("biWidth: %d \n", wid);
     // Check if the PPM uses 8-bit per color channel
@@ -525,7 +425,7 @@ int main() {
         return (uint8_t) 1;
     }
     printf("currpos: %d \n", (int)ftell(inputFile2));
-    int header_size = ftell(inputFile2);
+    // int header_size = ftell(inputFile2);
     fseek(inputFile2, ftell(inputFile2), SEEK_SET);
     fread(new_output_data, 1, width * height * 3, inputFile2);
 
@@ -543,48 +443,12 @@ int main() {
             outputIndex = (i * width + j) * 3;
             outputIndex2 = ((i + 1) * width + j) * 3;
 
-            // BYTE Ytl  =  outputData[index];
-            // BYTE Ytr  =  outputData[index -1];
-            // BYTE Ybl  =  outputData[index -2];
-            // BYTE Ybr  =  outputData[index -3];
-            // BYTE CB = outputData[index -4];
-            // BYTE CR = outputData[index -5];
-            // BYTE Ytl  =  outputData[index];
-            // BYTE Ytr  =  outputData[index +1];
-            // BYTE Ybl  =  outputData[index +2];
-            // BYTE Ybr  =  outputData[index +3];
-            // BYTE CB = outputData[index +4];
-            // BYTE CR = outputData[index +5];
-            // BYTE Ytl  =  outputData[index-5];
-            // BYTE Ytr  =  outputData[index -4];
-            // BYTE Ybl  =  outputData[index -3];
-            // BYTE Ybr  =  outputData[index -2];
-            // BYTE CB = outputData[index -1];
-            // BYTE CR = outputData[index ];
-
-            // BYTE Ytl  =  imageData[outputIndex -5];
-            // BYTE Ytr  =  imageData[outputIndex -4];
-            // BYTE Ybl  =  imageData[outputIndex -3];
-            // BYTE Ybr  =  imageData[outputIndex -2];
-            // BYTE CB = imageData[outputIndex -1];
-            // BYTE CR = imageData[outputIndex ];
-
-            // BYTE Ytl  =  imageData[outputIndex ];
-            // BYTE Ytr  =  imageData[outputIndex -1];
-            // BYTE Ybl  =  imageData[outputIndex -2];
-            // BYTE Ybr  =  imageData[outputIndex -3];
-            // BYTE CB = imageData[outputIndex -4];
-            // BYTE CR = imageData[outputIndex -5];
             BYTE Ytl = imageData[outputIndex];
             BYTE Ytr = imageData[outputIndex + 3];
             BYTE Ybl = imageData[outputIndex2];
             BYTE Ybr = imageData[outputIndex + 3];
             BYTE CB = imageData[outputIndex + 1];
             BYTE CR = imageData[outputIndex + 2];
-
-            // unsigned char Y =  fgetc(inputFile);
-            // unsigned char CR = fgetc(inputFile);
-            // unsigned char CB = fgetc(inputFile);
 
             YCbCrTorgb(Ytl, Ytr, Ybl, Ybr, CB, CR,
                        &new_output_data[outputIndex],
@@ -600,25 +464,11 @@ int main() {
                        &new_output_data[outputIndex2 + 4],
                        &new_output_data[outputIndex2 + 5]);
 
-            // fwrite(outputData[outputIndex + 1], sizeof(BYTE), 1, output);
-            // fwrite(outputData[outputIndex + 4], sizeof(BYTE), 1, output);
-            // fwrite(outputData[outputIndex + 5], sizeof(BYTE), 1, output);
 
-            // fseek(output, height, SEEK_CUR);
         }
     }
 
-    // RGBtoYCC(bitmapData, outputData, bitmapInfoHeader.biWidth,
-    // bitmapInfoHeader.biHeight); Create output file uint32_t tempRGB=0; int
-    // imageIdx;
-    // //(unsigned long)( swap the R a)nd B values to get RGB (bitmap is BGR)
-    // for (int i(unsigned long)(mageIdx = 0;i)mageIdx < height*width*3;imageIdx+=3){
-    //     // printf("star\n(unsigned long)(");
-    //   )  tempRGB = new_output_data[imageIdx];
-    //     new_output_data[imageIdx] = new_output_data[imageIdx + 2];
-    //     new_output_data[imageIdx + 2] = tempRGB;
-    //     // printf("temprgb: %d\n", tempRGB);
-    // }
+
 
     // Write file and info headers
     fseek(outputFile, 0, SEEK_SET);
@@ -639,6 +489,14 @@ int main() {
     free(imageData);
 
     printf("Conversion to RGB complete.\n");
+
+
+    clock_t end = clock();
+    double elapsed = (end - start)/CLOCKS_PER_SEC;
+
+    printf("Conversion to RGB complete.\n");
+    printf("Time measured: %.3f seconds.\n", elapsed);
+
 
     return 0;
 }
