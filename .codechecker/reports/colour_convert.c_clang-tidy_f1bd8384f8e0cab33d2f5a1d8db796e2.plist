@@ -20,7 +20,7 @@
 				<key>file</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>689</integer>
+				<integer>672</integer>
 			</dict>
 			<key>path</key>
 			<array>
@@ -36,7 +36,7 @@
 						<key>file</key>
 						<integer>0</integer>
 						<key>line</key>
-						<integer>689</integer>
+						<integer>672</integer>
 					</dict>
 					<key>message</key>
 					<string>result of integer division used in a floating point context; possible loss of precision</string>

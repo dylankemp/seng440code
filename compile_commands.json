@@ -1,26 +1,2 @@
 [
-{
-  "directory": "/home/birdy/seng440code/build",
-  "command": "/lib/llvm-17/bin/clang   -O2 -g -DNDEBUG -flto=thin -o CMakeFiles/colour_convert.dir/colour_convert.c.o -c /home/birdy/seng440code/colour_convert.c",
-  "file": "/home/birdy/seng440code/colour_convert.c",
-  "output": "CMakeFiles/colour_convert.dir/colour_convert.c.o"
-},
-{
-  "directory": "/home/birdy/seng440code/build",
-  "command": "/lib/llvm-17/bin/clang   -O2 -g -DNDEBUG -flto=thin -o CMakeFiles/colour_convert_int.dir/colour_convert_int.c.o -c /home/birdy/seng440code/colour_convert_int.c",
-  "file": "/home/birdy/seng440code/colour_convert_int.c",
-  "output": "CMakeFiles/colour_convert_int.dir/colour_convert_int.c.o"
-},
-{
-  "directory": "/home/birdy/seng440code/build",
-  "command": "/lib/llvm-17/bin/clang   -O2 -g -DNDEBUG -flto=thin -o CMakeFiles/colour_convert_int_vec.dir/colour_convert_int_vec.c.o -c /home/birdy/seng440code/colour_convert_int_vec.c",
-  "file": "/home/birdy/seng440code/colour_convert_int_vec.c",
-  "output": "CMakeFiles/colour_convert_int_vec.dir/colour_convert_int_vec.c.o"
-},
-{
-  "directory": "/home/birdy/seng440code/build",
-  "command": "/lib/llvm-17/bin/clang   -O2 -g -DNDEBUG -flto=thin -o CMakeFiles/colour_convert_int_thread.dir/colour_convert_int_thread.c.o -c /home/birdy/seng440code/colour_convert_int_thread.c",
-  "file": "/home/birdy/seng440code/colour_convert_int_thread.c",
-  "output": "CMakeFiles/colour_convert_int_thread.dir/colour_convert_int_thread.c.o"
-}
 ]

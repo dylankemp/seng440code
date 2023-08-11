@@ -65,7 +65,7 @@ BYTE c_clamp(uint8_t x) {
     return r;
 }
 #pragma clang optimize on
-void rgbToCmyk(BYTE redtl, BYTE greentl, BYTE bluetl, BYTE redtr, BYTE greentr,
+void rgbToYcc(BYTE redtl, BYTE greentl, BYTE bluetl, BYTE redtr, BYTE greentr,
                BYTE bluetr, BYTE redbl, BYTE greenbl, BYTE bluebl, BYTE redbr,
                BYTE greenbr, BYTE bluebr, unsigned char *Ytl,
                unsigned char *Ytr, unsigned char *Ybl, unsigned char *Ybr,
@@ -294,7 +294,7 @@ int main() {
 
 
     // Open input file
-    inputFile = fopen("../input.bmp", "rb");
+    inputFile = fopen("./input1.bmp", "rb");
     if (inputFile == NULL) {
         printf("Failed to open input file.\n");
 
@@ -357,7 +357,7 @@ int main() {
             unsigned char bluebr = bitmapData[index2 + 5];
 
             #pragma clang optimize on
-            rgbToCmyk(
+            rgbToYcc(
             redtl, greentl, bluetl, redtr, greentr, bluetr, redbl, greenbl,
             bluebl, redbr, greenbr, bluebr, &outputData[outputIndex],
             &outputData[outputIndex + 1], &outputData[outputIndex + 2],

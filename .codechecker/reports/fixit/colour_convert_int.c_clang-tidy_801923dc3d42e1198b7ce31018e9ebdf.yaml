@@ -1,11 +1,28 @@
 ---
 MainSourceFile:  '/home/birdy/seng440code/colour_convert_int.c'
 Diagnostics:
+  - DiagnosticName:  clang-diagnostic-incompatible-pointer-types
+    DiagnosticMessage:
+      Message:         'incompatible pointer types passing ''unsigned char *'' to parameter of type ''FILE *'' (aka ''struct _IO_FILE *'')'
+      FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+      FileOffset:      16795
+      Replacements:    []
+      Ranges:
+        - FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
+          FileOffset:      16795
+          Length:          15
+    Notes:
+      - Message:         'passing argument to parameter ''__stream'' here'
+        FilePath:        '/usr/include/stdio.h'
+        FileOffset:      6157
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  '/home/birdy/seng440code/build'
   - DiagnosticName:  bugprone-integer-division
     DiagnosticMessage:
       Message:         'result of integer division used in a floating point context; possible loss of precision'
       FilePath:        '/home/birdy/seng440code/colour_convert_int.c'
-      FileOffset:      17106
+      FileOffset:      17001
       Replacements:    []
     Level:           Warning
     BuildDirectory:  '/home/birdy/seng440code/build'

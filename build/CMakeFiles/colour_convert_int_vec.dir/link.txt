@@ -1,1 +1,0 @@
-/lib/llvm-17/bin/clang -g -flto=thin CMakeFiles/colour_convert_int_vec.dir/colour_convert_int_vec.c.o -o colour_convert_int_vec 

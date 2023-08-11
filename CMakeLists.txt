@@ -2,13 +2,16 @@ cmake_minimum_required(VERSION 3.18)
 #CMAKE_C_STANDARD
 #target_include_directories(tgt PRIVATE /opt/include/$<GNU-17>)
 
+#set(PICO_SDK_PATH /home/birdy/seng440code/)
+set(PICO_SDK_FETCH_FROM_GIT on)
+include(pico_sdk_import.cmake)
+
 set(native_path "${PATH}")
 cmake_path(SET path NORMALIZE "${native_path}")
 set(DCMAKE_POSITION_INDEPENDENT_CODE ON)
 set(DCMAKE_EXPORT_COMPILE_COMMANDS ON)
 #set(CMAKE_C_COMPILE_FEATURES)
 set(CMAKE_GENERATOR "Unix Makefiles")
-set(PICO_SDK_PATH /home/birdy/seng440code/)
 set(DCMAKE_CMAKE_C_COMPILER /usr/bin/clang-17)
 set(DCLANG_ENABLE_STATIC_ANALYZER ON)
 set(DLLDB_ENABLE_LIBEDIT ON)
@@ -26,7 +29,7 @@ set(CMAKE_LINK_WHAT_YOU_USE)
 #include(pico_sdk_import.cmake)
 project(colour_convert
         LANGUAGES C)
-#pico_sdk_init()
+pico_sdk_init()
 
 
 add_executable(colour_convert

@@ -117,7 +117,7 @@ BYTE c_clamp(float x)
 }
 
 
-void rgbToCmyk(BYTE redtl, BYTE greentl, BYTE bluetl, BYTE redtr, BYTE greentr, BYTE bluetr, BYTE redbl, BYTE greenbl, BYTE bluebl, BYTE redbr, BYTE greenbr, BYTE bluebr, unsigned char *Ytl,  unsigned char *Ytr,  unsigned char *Ybl,  unsigned char *Ybr, unsigned char *CB, unsigned char *CR) {
+void rgbToYcc(BYTE redtl, BYTE greentl, BYTE bluetl, BYTE redtr, BYTE greentr, BYTE bluetr, BYTE redbl, BYTE greenbl, BYTE bluebl, BYTE redbr, BYTE greenbr, BYTE bluebr, unsigned char *Ytl,  unsigned char *Ytr,  unsigned char *Ybl,  unsigned char *Ybr, unsigned char *CB, unsigned char *CR) {
 
     // YCC_pixel *YCC = malloc(sizeof(YCC_pixel));
 
@@ -127,7 +127,7 @@ void rgbToCmyk(BYTE redtl, BYTE greentl, BYTE bluetl, BYTE redtr, BYTE greentr, 
     float Rtl = redtl;
     float Gtl = greentl;
     float Btl = bluetl;
-    // printf('hi');
+
     // Convert RGB to YCbCr
     float Rtr = redtr;
     float Gtr = greentr;
@@ -170,9 +170,6 @@ void rgbToCmyk(BYTE redtl, BYTE greentl, BYTE bluetl, BYTE redtr, BYTE greentr, 
     *Ytr = (uint8_t)y_clamp(y_tr);
     *Ybl = (uint8_t)y_clamp(y_bl);
     *Ybr = (uint8_t)y_clamp(y_br);
-    // YCC->y_tr = (uint8_t)y_tr;
-    // YCC->y_bl = (uint8_t)y_bl;
-    // YCC->y_br = (uint8_t)y_br;
     *CB = (uint8_t)c_clamp(cba);
     *CR = (uint8_t)c_clamp(cra);
 
@@ -260,17 +257,8 @@ void YCbCrTorgb(unsigned char Ytl, unsigned char Ytr, unsigned char Ybl, unsigne
 
 unsigned char *LoadBitmapFile(FILE *filePtr, BITMAPINFOHEADER *bitmapInfoHeader, BITMAPFILEHEADER *bitmapFileHeader)
 {
-    // FILE *filePtr;  //our file pointer
-    // BITMAPFILEHEADER bitmapFileHeader;  //our bitmap file header
-    unsigned char *bitmapImage;  //store image data
-    // unsigned char *bitmapImageOut;
-    // uint32_t imageIdx=0;  //image index counter
-    // WORD tempRGB;  //our swap variable
 
-    // //open file in read binary mode
-    // filePtr = fopen(filename,"rb");
-    // if (filePtr == NULL)
-    //     return NULL;
+    unsigned char *bitmapImage;  //store image data
 
     //read the bitmap file header
     fread(bitmapFileHeader, sizeof(BITMAPFILEHEADER),1,filePtr);
@@ -300,10 +288,8 @@ unsigned char *LoadBitmapFile(FILE *filePtr, BITMAPINFOHEADER *bitmapInfoHeader,
     // fseek(filePtr, bitmapFileHeaderOut->bfOffBits, SEEK_SET);
 
     //allocate enough memory for the bitmap image data
-    // printf("size: %zu\n",bitmapInfoHeader->biSizeImage);
     bitmapImage = (unsigned char*)malloc(bitmapInfoHeader->biSizeImage);
-    // printf("size: %zu\n",sizeof(bitmapImage));
-    // bitmapImageOut = (unsigned char*)malloc(bitmapInfoHeader->biSizeImage);
+
     //verify memory allocation
     if (!bitmapImage)
     {
@@ -389,10 +375,7 @@ int main() {
     // Write the PPM header
     fseek(ppm_file, 0, SEEK_SET);
     fprintf(ppm_file,"P6\n%u %u\n%d\n",width, height, 255);
-    // fprintf(ppm_file, "P6\n%d %d\n%d\n", width, height, 255);
-    // fseek(outputFile, bitmapFileHeader.bfOffBits, SEEK_SET);
-    //Perform RGB to YCC conversion
-    // for (i = bitmapInfoHeader.biHeight -2; i >= 0 ; i -=2) {
+
     for (i = 0; i < bitmapInfoHeader.biHeight -2 ; i += 2) {
         for (j = 0; j < bitmapInfoHeader.biWidth -2; j += 2) {
             index = (i * bitmapInfoHeader.biWidth + j) * (3); //3x2 pixels worth
@@ -420,7 +403,7 @@ int main() {
 
 
             // printf("2;\n");
-            rgbToCmyk(redtl, greentl, bluetl, redtr, greentr, bluetr, redbl, greenbl, bluebl, redbr, greenbr, bluebr, &outputData[outputIndex], &outputData[outputIndex + 1], &outputData[outputIndex + 2],&outputData[outputIndex + 3],&outputData[outputIndex + 4],&outputData[outputIndex + 5]);
+            rgbToYcc(redtl, greentl, bluetl, redtr, greentr, bluetr, redbl, greenbl, bluebl, redbr, greenbr, bluebr, &outputData[outputIndex], &outputData[outputIndex + 1], &outputData[outputIndex + 2],&outputData[outputIndex + 3],&outputData[outputIndex + 4],&outputData[outputIndex + 5]);
             // printf("3;\n");
 
             imageData[index] = outputData[outputIndex];

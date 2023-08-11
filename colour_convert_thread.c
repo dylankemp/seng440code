@@ -63,7 +63,7 @@ BYTE c_clamp(uint8_t x) {
     return r;
 }
 
-void rgbToCmyk(BYTE redtl, BYTE greentl, BYTE bluetl, BYTE redtr, BYTE greentr,
+void rgbToYcc(BYTE redtl, BYTE greentl, BYTE bluetl, BYTE redtr, BYTE greentr,
                BYTE bluetr, BYTE redbl, BYTE greenbl, BYTE bluebl, BYTE redbr,
                BYTE greenbr, BYTE bluebr, unsigned char *Ytl,
                unsigned char *Ytr, unsigned char *Ybl, unsigned char *Ybr,
@@ -239,12 +239,12 @@ unsigned char *LoadBitmapFile(FILE *filePtr, BITMAPINFOHEADER *bitmapInfoHeader,
     fread(bitmapInfoHeader, sizeof(BITMAPINFOHEADER), 1, filePtr);
 
     // Check if the BMP uses 24-bit RGB format
-    if (bitmapInfoHeader->biBitCount != 24) {
-        printf("Error: Only 24-bit RGB BMP images are supported.\n");
-        fclose(filePtr);
-        // fclose(output_file);
-        return NULL;
-    }
+    // if (bitmapInfoHeader->biBitCount != 24) {
+    //     printf("Error: Only 24-bit RGB BMP images are supported.\n");
+    //     fclose(filePtr);
+    //     // fclose(output_file);
+    //     return NULL;
+    // }
 
     // move file pointer to the beginning of bitmap data
     fseek(filePtr, bitmapFileHeader->bfOffBits, SEEK_SET);
@@ -392,7 +392,7 @@ int main() {
             unsigned char bluebr = bitmapData[index2 + 5];
 
             // printf("2;\n");
-            rgbToCmyk(
+            rgbToYcc(
                 redtl, greentl, bluetl, redtr, greentr, bluetr, redbl, greenbl,
                 bluebl, redbr, greenbr, bluebr, &outputData[outputIndex],
                 &outputData[outputIndex + 1], &outputData[outputIndex + 2],

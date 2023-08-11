@@ -79,7 +79,7 @@ BYTE c_clamp(uint8_t x) {
     return r;
 }
 
-void rgbToCmyk(BYTE redtl, BYTE greentl, BYTE bluetl, BYTE redtr, BYTE greentr,
+void rgbToYcc(BYTE redtl, BYTE greentl, BYTE bluetl, BYTE redtr, BYTE greentr,
                BYTE bluetr, BYTE redbl, BYTE greenbl, BYTE bluebl, BYTE redbr,
                BYTE greenbr, BYTE bluebr, unsigned char *Ytl,
                unsigned char *Ytr, unsigned char *Ybl, unsigned char *Ybr,
@@ -236,11 +236,6 @@ unsigned char *LoadBitmapFile(FILE *filePtr, BITMAPINFOHEADER *bitmapInfoHeader,
     // unsigned char *bitmapImageOut;
 
 
-    // //open file in read binary mode
-    // filePtr = fopen(filename,"rb");
-    // if (filePtr == NULL)
-    //     return NULL;
-
     // read the bitmap file header
     fread(bitmapFileHeader, sizeof(BITMAPFILEHEADER), 1, filePtr);
 
@@ -335,7 +330,7 @@ int main() {
                                                               // worth
             index2 = ((i + 1) * bitmapInfoHeader.biWidth + j) *
                      (3); // 3x2 pixels worth
-            outputIndex = (i * bitmapInfoHeader.biWidth + j) * 6; // 
+            outputIndex = (i * bitmapInfoHeader.biWidth + j) * 6; //
 
             unsigned char redtl = bitmapData[index];
             unsigned char greentl = bitmapData[index + 1];
@@ -354,7 +349,7 @@ int main() {
             unsigned char bluebr = bitmapData[index2 + 5];
 
             // printf("2;\n");
-            rgbToCmyk(
+            rgbToYcc(
                 redtl, greentl, bluetl, redtr, greentr, bluetr, redbl, greenbl,
                 bluebl, redbr, greenbr, bluebr, &outputData[outputIndex],
                 &outputData[outputIndex + 1], &outputData[outputIndex + 2],
