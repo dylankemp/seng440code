@@ -4,7 +4,7 @@
 #include <stdlib.h>
 // #include <math.h>
 #include <stdint.h>
-typedef uint16_t DWORD;  // DWORD = unsigned 32 bit value
+typedef uint32_t DWORD;  // DWORD = unsigned 32 bit value
 typedef uint16_t WORD;  // WORD = unsigned 16 bit value
 typedef uint8_t BYTE;   // BYTE = unsigned 8 bit value
 
@@ -41,10 +41,10 @@ typedef struct tagBITMAPINFOHEADER {
 
 #pragma pack(pop)
 
-uint16_t rgb_clamp(int x) {
+WORD rgb_clamp(int x) {
 
     // // Clamp the RGB values to 0-255 range
-    uint16_t r = (x < 0) ? 0 : (x > 255) ? 255 : (uint16_t)x;
+    WORD r = (x  < (0<<K)) ? 0 : (x > (255<<K)) ? 255 : (WORD)x;
 
     return r;
 }
@@ -148,69 +148,53 @@ void YCbCrTorgb(unsigned char Ytl, unsigned char Ytr, unsigned char Ybl,
 
     // float Yf = Y; /// 255.0;
     // float CBf = CB; /// 255.0;
-    // float CRf = CR; /// 255.0;
-    WORD Yf = (WORD)Ytl;
-    WORD CBf = (WORD)CB;
-    WORD CRf = (WORD)CR;
+        // float CRf = CR; /// 255.0;
+int Yf = (int)Ytl;
+    int CBf = (int)CB;
+    int CRf = (int)CR;
 
     // Convert YCbCr to RGB
 
-    int r = rgb_clamp((74 * (int)(Yf - 16)) + (102 * (int)(CRf - 128)));
-    int g = rgb_clamp((74 * (int)(Yf - 16)) - (52 * (int)(CRf - 128))) -
+    int r = (74 * (int)(Yf - 16)) + (102 * (int)(CRf - 128));
+    int g = (74 * (int)(Yf - 16)) - (52 * (int)(CRf - 128)) -
             (25 * (int)(CBf - 128));
-    int b = rgb_clamp((74 * (int)(Yf - 16)) + (129 * (int)(CBf - 128)));
+    int b = (74 * (int)(Yf - 16)) + (129 * (int)(CBf - 128));
 
-    Yf = (WORD)Ytr;
-    int r1 = rgb_clamp((74 * (int)(Yf - 16)) + (102 * (int)(CRf - 128)));
-    int g1 = rgb_clamp((74 * (int)(Yf - 16)) - (52 * (int)(CRf - 128)) -
-                       (25 * (int)(CBf - 128)));
-    int b1 = rgb_clamp((74 * (int)(Yf - 16)) + (129 * (int)(CBf - 128)));
+    Yf = (int)Ytr;
+    int r1 = (74 * (int)(Yf - 16)) + (102 * (int)(CRf - 128));
+    int g1 = (74 * (int)(Yf - 16)) - (52 * (int)(CRf - 128)) -
+                    (25 * (int)(CBf - 128));
+    int b1 = (74 * (int)(Yf - 16)) + (129 * (int)(CBf - 128));
 
-    Yf = (WORD)Ybl;
-    int r2 = rgb_clamp((74 * (int)(Yf - 16)) + (102 * (int)(CRf - 128)));
-    int g2 = rgb_clamp((74 * (int)(Yf - 16)) - (52 * (int)(CRf - 128)) -
-                       (25 * (int)(CBf - 128)));
-    int b2 = rgb_clamp((74 * (int)(Yf - 16)) + (129 * (int)(CBf - 128)));
+    Yf = (int)Ybl;
+    int r2 = (74 * (int)(Yf - 16)) + (102 * (int)(CRf - 128));
+    int g2 = (74 * (int)(Yf - 16)) - (52 * (int)(CRf - 128)) -
+                    (25 * (int)(CBf - 128));
+    int b2 = (74 * (int)(Yf - 16)) + (129 * (int)(CBf - 128));
 
-    Yf = (WORD)Ybr;
-    int r3 = rgb_clamp((74 * (int)(Yf - 16)) + (102 * (int)(CRf - 128)));
-    int g3 = rgb_clamp((74 * (int)(Yf - 16)) - (52 * (int)(CRf - 128)) -
-                       (25 * (int)(CBf - 128)));
-    int b3 = rgb_clamp((74 * (int)(Yf - 16)) + (129 * (int)(CBf - 128)));
+    Yf = (int)Ybr;
+    int r3 = (74 * (int)(Yf - 16)) + (102 * (int)(CRf - 128));
+    int g3 = (74 * (int)(Yf - 16)) - (52 * (int)(CRf - 128)) -
+                    (25 * (int)(CBf - 128));
+    int b3 = (74 * (int)(Yf - 16)) + (129 * (int)(CBf - 128));
 
-    *red = (BYTE)((r + (1 << (K - 1))) >> K);
-    *green = (BYTE)((g + (1 << (K - 1))) >> K);
-    *blue = (BYTE)((b + (1 << (K - 1))) >> K);
 
-    *red1 = (BYTE)(((r1 + (1 << (K - 1))) >> K));
-    *green1 = (BYTE)((g1 + (1 << (K - 1))) >> K);
-    *blue1 = (BYTE)((b1 + (1 << (K - 1))) >> K);
+    *red = (BYTE)rgb_clamp(((r + (1 << (K - 1))) >> K));
+    *green = (BYTE)rgb_clamp(((g + (1 << (K - 1))) >> K));
+    *blue = (BYTE)rgb_clamp(((b + (1 << (K - 1))) >> K));
 
-    *red2 = (BYTE)((r2 + (1 << (K - 1))) >> K);
-    *green2 = (BYTE)((g2 + (1 << (K - 1))) >> K);
-    *blue2 = (BYTE)((b2 + (1 << (K - 1))) >> K);
+    *red1 = (BYTE)rgb_clamp(((r1 + (1 << (K - 1))) >> K));
+    *green1 = (BYTE)rgb_clamp(((g1 + (1 << (K - 1))) >> K));
+    *blue1 = (BYTE)rgb_clamp(((b1 + (1 << (K - 1))) >> K));
 
-    *red3 = (BYTE)((r3 + (1 << (K - 1))) >> K);
-    *green3 = (BYTE)((g3 + (1 << (K - 1))) >> K);
-    *blue3 = (BYTE)((b3 + (1 << (K - 1))) >> K);
-    // *red = red1
-    // *green = green1;
-    // *blue = blue1;
+    *red2 = (BYTE)rgb_clamp(((r2 + (1 << (K - 1))) >> K));
+    *green2 =(BYTE)rgb_clamp(((g2 + (1 << (K - 1))) >> K));
+    *blue2 = (BYTE)rgb_clamp(((b2 + (1 << (K - 1))) >> K));
 
-    // *red = std::clamp(Yf, 0, UINT8_MAX);
-    // *green = std::clamp(CBf, 0, UINT8_MAX);
-    // *blue = std::clamp(CRf, 0, UINT8_MAX);
-    // printf("%d", r);
-    // printf("%d", g);
-    // printf("%d", b);
+    *red3 = (BYTE)rgb_clamp(((r3 + (1 << (K - 1))) >> K));
+    *green3 = (BYTE)rgb_clamp(((g3 + (1 << (K - 1))) >> K));
+    *blue3 = (BYTE)rgb_clamp(((b3 + (1 << (K - 1))) >> K));
 
-    // *red = r;
-    // *green = g;
-    // *blue = b;
-
-    // *red = r;
-    // *green = g;
-    // *blue = b;
 }
 
 unsigned char *LoadBitmapFile(FILE *filePtr, BITMAPINFOHEADER *bitmapInfoHeader,

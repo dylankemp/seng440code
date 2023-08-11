@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/colour_convert.dir/colour_convert.c.o -o colour_convert 

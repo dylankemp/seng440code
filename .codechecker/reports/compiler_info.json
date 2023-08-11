@@ -1,1 +1,1 @@
-{}
+{"[\"/usr/bin/arm-none-eabi-gcc\", \"c\", []]": {"compiler_includes": ["/usr/lib/gcc/arm-none-eabi/8.3.1/include", "/usr/lib/gcc/arm-none-eabi/8.3.1/include-fixed", "/usr/lib/arm-none-eabi/include"], "compiler_standard": "-std=gnu17", "target": "arm-none-eabi"}}

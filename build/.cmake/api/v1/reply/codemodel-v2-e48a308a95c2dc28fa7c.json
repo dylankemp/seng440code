@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "colour_convert",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "colour_convert::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-colour_convert-Debug-197f176ffc96301818a9.json",
+					"name" : "colour_convert",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "colour_convert_int::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-colour_convert_int-Debug-273963e0f8ae469ca45b.json",
+					"name" : "colour_convert_int",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "colour_convert_int_vec::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-colour_convert_int_vec-Debug-3df4e71ae0594106f194.json",
+					"name" : "colour_convert_int_vec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "colour_convert_thread::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-colour_convert_thread-Debug-a037e6d1ade6a353b859.json",
+					"name" : "colour_convert_thread",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/birdy/seng440code/build",
+		"source" : "/home/birdy/seng440code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

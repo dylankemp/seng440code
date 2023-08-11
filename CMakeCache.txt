@@ -212,15 +212,6 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Set to ON to fetch copy of SDK from git if not otherwise locatable
-PICO_SDK_FETCH_FROM_GIT:BOOL=true
-
-//location to download SDK
-PICO_SDK_FETCH_FROM_GIT_PATH:FILEPATH=
-
-//Path to the Raspberry Pi Pico SDK
-PICO_SDK_PATH:PATH=/home/pi/pico/pico-sdk
-
 //Value Computed by CMake
 colour_convert_BINARY_DIR:STATIC=/home/birdy/seng440code
 
@@ -375,4 +366,3 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-

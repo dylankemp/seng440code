@@ -1,26 +1,15 @@
-
 #include <stddef.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
+//#include "pico/stdlib.h"
+//#include "pico/float.h"
 typedef uint32_t DWORD;   // DWORD = unsigned 32 bit value
 typedef uint16_t WORD;    // WORD = unsigned 16 bit value
 typedef uint8_t BYTE;     // BYTE = unsigned 8 bit value
-//#include "pico/stdlib.h"
-//#include "pico/float.h"
 
-
-// #pragma pack(push, 1)
-// typedef struct {
-//     unsigned char signature[2];
-//     unsigned int fileSize;
-//     unsigned short reserved1;
-//     unsigned short reserved2;
-//     unsigned int dataOffset;
-// } BitmapFileHeader;
-// #pragma pack(pop)
 
 #pragma pack(push, 1)
 
@@ -357,13 +346,6 @@ int main() {
     // outputData = (unsigned char*)malloc(bitmapInfoHeader.biSizeImage);
     outputData = (unsigned char*)malloc(newImageSize);
     imageData = (unsigned char*)malloc(bitmapInfoHeader.biSizeImage);
-    // printf("biHeight: %d\n",height);
-    // printf("biWidth: %d\n",width);
-    // printf("size: %lu\n",&bitmapData);
-    // printf("size: %lu\n",sizeof(outputData));
-    // printf("size: %lu\n",bitmapInfoHeader.biSizeImage);
-
-
 
     FILE* ppm_file = fopen("./output_YCC.ppm", "wb");
     if (!ppm_file) {
@@ -565,7 +547,7 @@ int main() {
     fseek(inputFile2, ftell(inputFile2), SEEK_SET);
     fread(new_output_data, 1, width * height * 3, inputFile2);
 
-    outputFile = fopen("./RGB_Output.bmp", "wb");
+    outputFile = fopen("../RGB_Output.bmp", "wb");
     if (outputFile == NULL) {
         printf("Failed to create output file.\n");
         return 1;
@@ -579,39 +561,6 @@ int main() {
             outputIndex = (i *width + j) * 3;
             outputIndex2 = ((i+1) *width + j) * 3;
 
-
-                // BYTE Ytl  =  outputData[index];
-                // BYTE Ytr  =  outputData[index -1];
-                // BYTE Ybl  =  outputData[index -2];
-                // BYTE Ybr  =  outputData[index -3];
-                // BYTE CB = outputData[index -4];
-                // BYTE CR = outputData[index -5];
-                // BYTE Ytl  =  outputData[index];
-                // BYTE Ytr  =  outputData[index +1];
-                // BYTE Ybl  =  outputData[index +2];
-                // BYTE Ybr  =  outputData[index +3];
-                // BYTE CB = outputData[index +4];
-                // BYTE CR = outputData[index +5];
-                // BYTE Ytl  =  outputData[index-5];
-                // BYTE Ytr  =  outputData[index -4];
-                // BYTE Ybl  =  outputData[index -3];
-                // BYTE Ybr  =  outputData[index -2];
-                // BYTE CB = outputData[index -1];
-                // BYTE CR = outputData[index ];
-
-                // BYTE Ytl  =  imageData[outputIndex -5];
-                // BYTE Ytr  =  imageData[outputIndex -4];
-                // BYTE Ybl  =  imageData[outputIndex -3];
-                // BYTE Ybr  =  imageData[outputIndex -2];
-                // BYTE CB = imageData[outputIndex -1];
-                // BYTE CR = imageData[outputIndex ];
-
-                // BYTE Ytl  =  imageData[outputIndex ];
-                // BYTE Ytr  =  imageData[outputIndex -1];
-                // BYTE Ybl  =  imageData[outputIndex -2];
-                // BYTE Ybr  =  imageData[outputIndex -3];
-                // BYTE CB = imageData[outputIndex -4];
-                // BYTE CR = imageData[outputIndex -5];
                 BYTE Ytl  =  imageData[outputIndex ];
                 BYTE Ytr  =  imageData[outputIndex +3];
                 BYTE Ybl  =  imageData[outputIndex2 ];
@@ -669,7 +618,7 @@ int main() {
     free(imageData);
 
     clock_t end = clock();
-    double elapsed = (end - start)/CLOCKS_PER_SEC;
+    double elapsed = ((double)end - (double)start)/CLOCKS_PER_SEC;
 
     printf("Conversion to RGB complete.\n");
     printf("Time measured: %.3f seconds.\n", elapsed);

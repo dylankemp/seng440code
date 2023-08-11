@@ -1,17 +1,19 @@
-cmake_minimum_required(VERSION 3.18)
+cmake_minimum_required(VERSION 3.24)
+# set(CMAKE_GENERATOR "Unix Makefiles")
 #CMAKE_C_STANDARD
 #target_include_directories(tgt PRIVATE /opt/include/$<GNU-17>)
 
 #set(PICO_SDK_PATH /home/birdy/seng440code/)
-set(PICO_SDK_FETCH_FROM_GIT on)
-include(pico_sdk_import.cmake)
+# include(pico_sdk_import.cmake)
+# include(pico_extras_import_optional.cmake)
+
+#set(DPICO_COMPILER pico_arm_clang)
+#set(DPICO_TOOLCHAIN_PATH arm-embedded-llvm-14.0.0)
 
 set(native_path "${PATH}")
-cmake_path(SET path NORMALIZE "${native_path}")
 set(DCMAKE_POSITION_INDEPENDENT_CODE ON)
 set(DCMAKE_EXPORT_COMPILE_COMMANDS ON)
-#set(CMAKE_C_COMPILE_FEATURES)
-set(CMAKE_GENERATOR "Unix Makefiles")
+# set(CMAKE_C_COMPILE_FEATURES)
 set(DCMAKE_CMAKE_C_COMPILER /usr/bin/clang-17)
 set(DCLANG_ENABLE_STATIC_ANALYZER ON)
 set(DLLDB_ENABLE_LIBEDIT ON)
@@ -21,15 +23,14 @@ set(DCMAKE_C_CLANG_TIDY clang-tidy-17 --use-color)
 set(ENABLE_NEON ON)
 set(CMAKE_INTERPROCEDURAL_OPTIMIZATION ON)
 
-#set(CMAKE_C_INCLUDE_WHAT_YOU_USE /home/birdy/seng440code/build/)
+set(CMAKE_C_INCLUDE_WHAT_YOU_USE)
 set(CMAKE_LINK_WHAT_YOU_USE)
-
 #find_package()
 #include(GNUInstallDirs)
-#include(pico_sdk_import.cmake)
+
 project(colour_convert
         LANGUAGES C)
-pico_sdk_init()
+#pico_sdk_init()
 
 
 add_executable(colour_convert
@@ -54,9 +55,16 @@ add_executable(colour_convert_int_vec
 
         # pioasm
         # /home/pi/pico-sdk/tools/pioasm/pioasm)
-
-target_link_libraries(colour_convert)
-
+target_link_libraries(colour_convert
+                # pico_multicore
+                # pio_stdlib
+                # pico_platform
+                # pico_base
+                # pico_platform
+                )
+# target_link_libraries(colour_convert_int)
+# target_link_libraries(colour_convert_thread)
+# target_link_libraries(colour_convert_int_vec)
         # pico_multicore
         # pico_stdlib
         # pico_sdk
